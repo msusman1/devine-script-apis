@@ -1,0 +1,14 @@
+:root {
+    --mainColor: #6200ee;
+    --mainLightColor: #BB86FC;
+    --mainDarkColor: #3700B3;
+}
+
+.bg-window {
+    background: #f5f5f5;
+}
+
+.bg-main {
+    background-color: #6200ee !important;
+
+}

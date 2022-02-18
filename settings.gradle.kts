@@ -1,0 +1,1 @@
+rootProject.name = "com.example.devine-script-backend"
