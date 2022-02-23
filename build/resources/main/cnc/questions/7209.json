@@ -1,0 +1,113 @@
+[
+  {
+    "questionId": 67087,
+    "questionTitle": "Which of the following should be used considering factors shown in the figure?",
+    "questionOption1": "SimpleDB",
+    "questionOption2": "RDS",
+    "questionOption3": "Amazon EC2",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "Use RDS when you have an existing MySQL database that could be ported and you want to minimize the amount of infrastructure and administrative management required.",
+    "questionPreBody": "https://www.sanfoundry.com/wp-content/uploads/2015/10/cloud-computing-aws-interview-questions-answers-q1.png",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67088,
+    "questionTitle": "Point out the wrong statement.",
+    "questionOption1": "Amazon Machine Instances are sized at various levels and rented on a computing/hour basis",
+    "questionOption2": "The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling",
+    "questionOption3": "A number of tools are used to support EC2 services",
+    "questionOption4": "None of the mentioned",
+    "questionAnswer": 4,
+    "questionExplanation": "Through hardware virtualization on Xen hypervisors, Amazon.com has made it possible to create private virtual servers that you can run worldwide.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67089,
+    "questionTitle": "Which of the following is an edge-storage or content-delivery system that caches data in different physical locations?",
+    "questionOption1": "Amazon Relational Database Service",
+    "questionOption2": "Amazon SimpleDB",
+    "questionOption3": "Amazon Cloudfront",
+    "questionOption4": "Amazon Associates Web Services",
+    "questionAnswer": 3,
+    "questionExplanation": "Cloudfront is similar to systems such as Akamai.com, but is proprietary to Amazon.com and is set up to work with Amazon Simple Storage\n\u003cbr /\u003eSystem (Amazon S3).",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67090,
+    "questionTitle": "Which of the following allows you to create instances of the MySQL database to support your Web sites?",
+    "questionOption1": "Amazon Elastic Compute Cloud",
+    "questionOption2": "Amazon Simple Queue Service",
+    "questionOption3": "Amazon Relational Database Service",
+    "questionOption4": "Amazon Simple Storage System",
+    "questionAnswer": 3,
+    "questionExplanation": "RDS provides features such as automated software patching, database backups, and automated database scaling via an API call.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67091,
+    "questionTitle": "Point out the correct statement.",
+    "questionOption1": "Amazon Elastic Cloud is a system for creating virtual disks(volume)",
+    "questionOption2": "SimpleDB interoperates with both Amazon EC2 and Amazon S3",
+    "questionOption3": "EC3 is an Analytics as a Service provider",
+    "questionOption4": "None of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "Amazon SimpleDB stores data in “buckets” and without requiring the creation of a database schema.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67092,
+    "questionTitle": "Which of the following is a structured data store that supports indexing and data queries to both EC2 and S3?",
+    "questionOption1": "CloudWatch",
+    "questionOption2": "Amazon SimpleDB",
+    "questionOption3": "Amazon Cloudfront",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "SimpleDB isn’t a full database implementation.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67093,
+    "questionTitle": "Which of the following is the machinery for interacting with Amazon’s vast product data and eCommerce catalog function?",
+    "questionOption1": "Amazon Elastic Compute Cloud",
+    "questionOption2": "Amazon Associates Web Services",
+    "questionOption3": "Alexa Web Information Service",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "This service, which was called Amazon E-Commerce Service (ECS), is the means for vendors to add their products to the Amazon.com site\n\u003cbr /\u003eand take orders and payments.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67094,
+    "questionTitle": "Which of the following is a billing and account management service?",
+    "questionOption1": "Amazon Elastic MapReduce",
+    "questionOption2": "Amazon Mechanical Turk",
+    "questionOption3": "Amazon DevPay",
+    "questionOption4": "Multi-Factor Authentication",
+    "questionAnswer": 3,
+    "questionExplanation": "DevPay provides a developer API that eliminates the need for application developers to build order pipelines.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67095,
+    "questionTitle": "Which of the following is a means for accessing human researchers or consultants to help solve problems on a contractual or temporary basis?",
+    "questionOption1": "Amazon Elastic MapReduce",
+    "questionOption2": "Amazon Mechanical Turk",
+    "questionOption3": "Amazon DevPay",
+    "questionOption4": "Multi-Factor Authentication",
+    "questionAnswer": 2,
+    "questionExplanation": "Problems solved by this human workforce have included object identification, video or audio recording, data duplication, and data research.",
+    "topicIdRef": 7209
+  },
+  {
+    "questionId": 67096,
+    "questionTitle": "Which of the following is built on top of a Hadoop framework using the Elastic Compute Cloud?",
+    "questionOption1": "Amazon Elastic MapReduce",
+    "questionOption2": "Amazon Mechanical Turk",
+    "questionOption3": "Amazon DevPay",
+    "questionOption4": "Multi-Factor Authentication",
+    "questionAnswer": 1,
+    "questionExplanation": "Amazon Elastic MapReduce is an interactive data analysis tool for performing indexing.",
+    "topicIdRef": 7209
+  }
+]

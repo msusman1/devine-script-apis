@@ -1,5 +1,6 @@
 package com.devinescript.plugins
 
+import com.devinescript.controller.BaseController
 import com.devinescript.controller.DevineController
 import io.ktor.application.*
 import io.ktor.features.*
@@ -11,7 +12,11 @@ import io.ktor.routing.*
 
 fun Application.configureRouting() {
 
-
+    install(StatusPages) {
+        this.exception<Exception> { cause ->
+            call.respond(BaseController.Response(false, msg = cause.message))
+        }
+    }
 
     routing {
         static("/devine_script") {
@@ -28,7 +33,10 @@ fun Application.configureRouting() {
 //            DevineController(this.call).parse()
         }
         get("/displayDomain") {
-          DevineController(this.call).displayDemonstration()
+            DevineController(this.call).displayDemonstration()
+        }
+        get("/image_download") {
+            DevineController(this.call).downlaodImages()
         }
         get("/rename") {
 //            DevineController(this.call).renameFiles()
@@ -49,5 +57,6 @@ fun Application.configureRouting() {
         }
     }
 }
+
 class AuthenticationException : RuntimeException()
 class AuthorizationException : RuntimeException()

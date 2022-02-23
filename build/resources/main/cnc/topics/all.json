@@ -1,0 +1,401 @@
+{
+  "success": true,
+  "data": [
+    {
+      "topicId": 7174,
+      "topicTitle": "Introduction to Cloud Computing"
+    },
+    {
+      "topicId": 7175,
+      "topicTitle": "Cloud Types-1"
+    },
+    {
+      "topicId": 7176,
+      "topicTitle": "Cloud Types-2"
+    },
+    {
+      "topicId": 7177,
+      "topicTitle": "Cloud Types-3"
+    },
+    {
+      "topicId": 7178,
+      "topicTitle": "Benefits and Drawbacks of Cloud Computing"
+    },
+    {
+      "topicId": 7179,
+      "topicTitle": "Attributes of Cloud Computing"
+    },
+    {
+      "topicId": 7180,
+      "topicTitle": "Laws of Cloudonomics"
+    },
+    {
+      "topicId": 7181,
+      "topicTitle": "Challenges and Obstacles to Cloud Computing"
+    },
+    {
+      "topicId": 7182,
+      "topicTitle": "Cloud Computing Costs-1"
+    },
+    {
+      "topicId": 7183,
+      "topicTitle": "Cloud Computing Costs-2"
+    },
+    {
+      "topicId": 7184,
+      "topicTitle": "Connecting to the Cloud"
+    },
+    {
+      "topicId": 7185,
+      "topicTitle": "Cloud Computing Stack-1"
+    },
+    {
+      "topicId": 7186,
+      "topicTitle": "Cloud Computing Stack-2"
+    },
+    {
+      "topicId": 7187,
+      "topicTitle": "IaaS-1"
+    },
+    {
+      "topicId": 7188,
+      "topicTitle": "IaaS-2"
+    },
+    {
+      "topicId": 7189,
+      "topicTitle": "PaaS"
+    },
+    {
+      "topicId": 7190,
+      "topicTitle": "SaaS"
+    },
+    {
+      "topicId": 7191,
+      "topicTitle": "IDaaS-1"
+    },
+    {
+      "topicId": 7192,
+      "topicTitle": "IDaaS-2"
+    },
+    {
+      "topicId": 7193,
+      "topicTitle": "CaaS"
+    },
+    {
+      "topicId": 7194,
+      "topicTitle": "Virtualization Technologies"
+    },
+    {
+      "topicId": 7195,
+      "topicTitle": "Hypervisors-1"
+    },
+    {
+      "topicId": 7196,
+      "topicTitle": "Hypervisors-2"
+    },
+    {
+      "topicId": 7197,
+      "topicTitle": "Machine Imaging"
+    },
+    {
+      "topicId": 7198,
+      "topicTitle": "Porting Applications"
+    },
+    {
+      "topicId": 7199,
+      "topicTitle": "Capacity Planning"
+    },
+    {
+      "topicId": 7200,
+      "topicTitle": "Baseline Measurements"
+    },
+    {
+      "topicId": 7201,
+      "topicTitle": "Resource Ceilings"
+    },
+    {
+      "topicId": 7202,
+      "topicTitle": "Server and Instance types"
+    },
+    {
+      "topicId": 7203,
+      "topicTitle": "Network Capacity"
+    },
+    {
+      "topicId": 7204,
+      "topicTitle": "PaaS Application Frameworks-1"
+    },
+    {
+      "topicId": 7205,
+      "topicTitle": "PaaS Application Frameworks-2"
+    },
+    {
+      "topicId": 7206,
+      "topicTitle": "Google Web Services"
+    },
+    {
+      "topicId": 7207,
+      "topicTitle": "Google Application Portfolio"
+    },
+    {
+      "topicId": 7208,
+      "topicTitle": "Google Toolkit"
+    },
+    {
+      "topicId": 7209,
+      "topicTitle": "Amazon Web Services"
+    },
+    {
+      "topicId": 7210,
+      "topicTitle": "Amazon Web Service Components and Services"
+    },
+    {
+      "topicId": 7211,
+      "topicTitle": "Amazon Machine Images"
+    },
+    {
+      "topicId": 7212,
+      "topicTitle": "Amazon Storage Systems"
+    },
+    {
+      "topicId": 7213,
+      "topicTitle": "Amazon Elastic Block Store"
+    },
+    {
+      "topicId": 7214,
+      "topicTitle": "Microsoft Cloud Services"
+    },
+    {
+      "topicId": 7215,
+      "topicTitle": "Windows Azure Platform"
+    },
+    {
+      "topicId": 7216,
+      "topicTitle": "Windows Azure AppFabric"
+    },
+    {
+      "topicId": 7217,
+      "topicTitle": "Azure Content Delivery Network"
+    },
+    {
+      "topicId": 7218,
+      "topicTitle": "Windows Live-1"
+    },
+    {
+      "topicId": 7219,
+      "topicTitle": "Windows Live-2"
+    },
+    {
+      "topicId": 7220,
+      "topicTitle": "Administrating the Clouds"
+    },
+    {
+      "topicId": 7221,
+      "topicTitle": "Cloud Management Products"
+    },
+    {
+      "topicId": 7222,
+      "topicTitle": "Cloud Commons and SMI"
+    },
+    {
+      "topicId": 7223,
+      "topicTitle": "Cloud Security"
+    },
+    {
+      "topicId": 7224,
+      "topicTitle": "Security Service Boundry"
+    },
+    {
+      "topicId": 7225,
+      "topicTitle": "Securing Data"
+    },
+    {
+      "topicId": 7226,
+      "topicTitle": "Identity Protocol Standards"
+    },
+    {
+      "topicId": 7227,
+      "topicTitle": "Service Oriented Architecture"
+    },
+    {
+      "topicId": 7228,
+      "topicTitle": "Event-Driven SOA or SOA 2.0"
+    },
+    {
+      "topicId": 7229,
+      "topicTitle": "The Enterprise Service Bus"
+    },
+    {
+      "topicId": 7230,
+      "topicTitle": "SOA Communications"
+    },
+    {
+      "topicId": 7231,
+      "topicTitle": "Business Process Modeling-1"
+    },
+    {
+      "topicId": 7232,
+      "topicTitle": "Business Process Modeling-2"
+    },
+    {
+      "topicId": 7233,
+      "topicTitle": "Managing and Monitoring SOA"
+    },
+    {
+      "topicId": 7234,
+      "topicTitle": "SOA Security"
+    },
+    {
+      "topicId": 7235,
+      "topicTitle": "The Open Cloud Consortium"
+    },
+    {
+      "topicId": 7236,
+      "topicTitle": "Applications in the Clouds"
+    },
+    {
+      "topicId": 7237,
+      "topicTitle": "Application Attributes"
+    },
+    {
+      "topicId": 7238,
+      "topicTitle": "Cloud Service Attributes"
+    },
+    {
+      "topicId": 7239,
+      "topicTitle": "Applications and Cloud APIs"
+    },
+    {
+      "topicId": 7240,
+      "topicTitle": "Cloud Storage in the Digital Universe"
+    },
+    {
+      "topicId": 7241,
+      "topicTitle": "Provisioning Cloud Storage-1"
+    },
+    {
+      "topicId": 7242,
+      "topicTitle": "Provisioning Cloud Storage-2"
+    },
+    {
+      "topicId": 7243,
+      "topicTitle": "Virtual Storage Containers"
+    },
+    {
+      "topicId": 7244,
+      "topicTitle": "Cloud Backup Solutions"
+    },
+    {
+      "topicId": 7245,
+      "topicTitle": "Backup Types"
+    },
+    {
+      "topicId": 7246,
+      "topicTitle": "Cloud Backup Features"
+    },
+    {
+      "topicId": 7247,
+      "topicTitle": "Cloud Data Management Interface"
+    },
+    {
+      "topicId": 7248,
+      "topicTitle": "Open Cloud Computing Interface"
+    },
+    {
+      "topicId": 7249,
+      "topicTitle": "Online Office Systems-1"
+    },
+    {
+      "topicId": 7250,
+      "topicTitle": "Online Office Systems-2"
+    },
+    {
+      "topicId": 7251,
+      "topicTitle": "Online Office Systems-3"
+    },
+    {
+      "topicId": 7252,
+      "topicTitle": "Cloud Mail Services-1"
+    },
+    {
+      "topicId": 7253,
+      "topicTitle": "Cloud Mail Services-2"
+    },
+    {
+      "topicId": 7254,
+      "topicTitle": "Syndication Services"
+    },
+    {
+      "topicId": 7255,
+      "topicTitle": "Communicating with the Cloud-1"
+    },
+    {
+      "topicId": 7256,
+      "topicTitle": "Communicating with the Cloud-2"
+    },
+    {
+      "topicId": 7257,
+      "topicTitle": "Collaboration Technologies-1"
+    },
+    {
+      "topicId": 7258,
+      "topicTitle": "Collaboration Technologies-2"
+    },
+    {
+      "topicId": 7259,
+      "topicTitle": "Media and Streaming"
+    },
+    {
+      "topicId": 7260,
+      "topicTitle": "VoIP Applications"
+    },
+    {
+      "topicId": 7261,
+      "topicTitle": "Video Streaming-1"
+    },
+    {
+      "topicId": 7262,
+      "topicTitle": "Video Streaming-2"
+    },
+    {
+      "topicId": 7263,
+      "topicTitle": "Mobile Cloud"
+    },
+    {
+      "topicId": 7264,
+      "topicTitle": "Mobile Cloud Applications-1"
+    },
+    {
+      "topicId": 7265,
+      "topicTitle": "Mobile Cloud Applications-2"
+    },
+    {
+      "topicId": 7266,
+      "topicTitle": "Mobile Web Services"
+    },
+    {
+      "topicId": 7267,
+      "topicTitle": "Service Types"
+    },
+    {
+      "topicId": 7268,
+      "topicTitle": "Service Discovery"
+    },
+    {
+      "topicId": 7269,
+      "topicTitle": "MEMS"
+    },
+    {
+      "topicId": 7270,
+      "topicTitle": "Synchronization"
+    },
+    {
+      "topicId": 7271,
+      "topicTitle": "Context-Aware Services"
+    },
+    {
+      "topicId": 7272,
+      "topicTitle": "Push Services"
+    }
+  ]
+}

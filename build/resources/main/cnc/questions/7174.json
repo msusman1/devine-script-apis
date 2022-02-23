@@ -1,0 +1,112 @@
+[
+  {
+    "questionId": 66737,
+    "questionTitle": "_________ computing refers to applications and services that run on a distributed network using virtualized resources.",
+    "questionOption1": "Distributed",
+    "questionOption2": "Cloud",
+    "questionOption3": "Soft",
+    "questionOption4": "Parallel",
+    "questionAnswer": 2,
+    "questionExplanation": "Cloud Computing applications are accessed by common Internet protocols and networking standards.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66738,
+    "questionTitle": "Point out the wrong statement.",
+    "questionOption1": "The massive scale of cloud computing systems was enabled by the popularization of the Internet",
+    "questionOption2": "Soft computing represents a real paradigm shift in the way in which systems are deployed",
+    "questionOption3": "Cloud computing makes the long-held dream of utility computing possible with a pay-as-you-go, infinitely scalable, universally available system",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "Cloud Computing is distinguished by the notion that resources are virtual and limitless and that details of the physical systems on which software runs are abstracted from the user.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66739,
+    "questionTitle": "________ as a utility is a dream that dates from the beginning of the computing industry itself.",
+    "questionOption1": "Model",
+    "questionOption2": "Computing",
+    "questionOption3": "Software",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "Cloud computing takes the technology, services, and applications that are similar to those on the Internet and turns them into a self-service utility.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66740,
+    "questionTitle": "Which of the following is essential concept related to Cloud?",
+    "questionOption1": "Reliability",
+    "questionOption2": "Productivity",
+    "questionOption3": "Abstraction",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 3,
+    "questionExplanation": "Cloud computing abstracts the details of system implementation from users and developers.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66741,
+    "questionTitle": "Point out the wrong statement.",
+    "questionOption1": "All applications benefit from deployment in the cloud",
+    "questionOption2": "With cloud computing, you can start very small and become big very fast",
+    "questionOption3": "Cloud computing is revolutionary, even if the technology it is built on is evolutionary",
+    "questionOption4": "None of the mentioned",
+    "questionAnswer": 1,
+    "questionExplanation": "Issues with latency, transaction control, and in particular security and regulatory compliance are of particular concern.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66742,
+    "questionTitle": "Which of the following cloud concept is related to pooling and sharing of resources?",
+    "questionOption1": "Polymorphism",
+    "questionOption2": "Abstraction",
+    "questionOption3": "Virtualization",
+    "questionOption4": "None of the mentioned",
+    "questionAnswer": 3,
+    "questionExplanation": "Applications run on physical systems that aren’t specified, data is stored in locations that are unknown, administration of systems is outsourced to others, and access by users is ubiquitous.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66743,
+    "questionTitle": "________ has many of the characteristics of what is now being called cloud computing.",
+    "questionOption1": "Internet",
+    "questionOption2": "Softwares",
+    "questionOption3": "Web Service",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 1,
+    "questionExplanation": "The Internet offers abstraction, runs using the same set of protocols and standards, and uses the same applications and operating systems.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66744,
+    "questionTitle": "Which of the following can be identified as cloud?",
+    "questionOption1": "Web Applications",
+    "questionOption2": "Intranet",
+    "questionOption3": "Hadoop",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 3,
+    "questionExplanation": "When an intranet becomes large enough that a diagram no longer wishes to differentiate between individual physical systems, the intranet too becomes identified as a cloud.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66745,
+    "questionTitle": "Cloud computing is an abstraction based on the notion of pooling physical resources and presenting them as a ________ resource.",
+    "questionOption1": "real",
+    "questionOption2": "virtual",
+    "questionOption3": "cloud",
+    "questionOption4": "none of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "Cloud Computing is a new model for provisioning resources, for staging applications, and for platform-independent user access to services.",
+    "topicIdRef": 7174
+  },
+  {
+    "questionId": 66746,
+    "questionTitle": "Which of the following is Cloud Platform by Amazon?",
+    "questionOption1": "Azure",
+    "questionOption2": "AWS",
+    "questionOption3": "Cloudera",
+    "questionOption4": "All of the mentioned",
+    "questionAnswer": 2,
+    "questionExplanation": "One of the most successful cloud-based businesses is Amazon Web Services, which is an Infrastructure as a Service offering that lets you rent virtual computers on Amazon’s own infrastructure.",
+    "topicIdRef": 7174
+  }
+]

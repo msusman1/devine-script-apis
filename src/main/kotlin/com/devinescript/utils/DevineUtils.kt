@@ -205,7 +205,7 @@ fun textContainsArabic(text: String): Boolean {
 data class Demonstration(val difficultyLevel: DifficultyLevel, val backdrop: String, val sections: List<Section>)
 data class Section(
     val section_type: SectionTypeEnum,
-    val content: String,
+    var content: String,
     val content_ar: String? = null,
     val heading: String? = null,
     val reference_title: String? = null,

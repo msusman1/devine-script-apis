@@ -28,9 +28,48 @@ data class DomainWithBranch(
     var difficultyLevel: DifficultyLevel,
 )
 
+//private val baseUrl = "http://192.168.10.97:8080/"
+private val baseUrl = "http://192.168.50.143:8080/"
+
 class DevineController(call: ApplicationCall) : BaseController(call) {
+    val allImagesName = File("src/main/resources/devine_script/images").listFiles().map { it.name }
+
+    fun getImageFor(suffix: String, id: Int): String {
+        return allImagesName.find { it.startsWith(suffix + "_" + id) } ?: ""
+    }
+
+    suspend fun downlaodImages() {
+        val demonstrationFiles =
+            File("src/main/resources/devine_script/domainSections").listFiles()?.toList()
+        val type = object : TypeToken<List<Section>>() {}.type
+
+        val fileChanged = mutableMapOf<String, Int>()
+        demonstrationFiles?.forEach { file ->
+            val sections = Gson().fromJson<List<Section>>(file.readText(), type)
+            var sectionNo = 1
+            var changed = false
+            sections.forEach {
+                if (it.section_type == SectionTypeEnum.IMAGE && it.content.startsWith("https")) {
+                    it.content = OkhttpUtils.downloadFile(
+                        it.content,
+                        "domain_${file.nameWithoutExtension}_section_$sectionNo"
+                    ) ?: ""
+                    sectionNo++
+                    changed = true
+                }
+
+            }
+            if (changed) {
+                fileChanged[file.name] = sectionNo - 1
+                file.writeText(Gson().toJson(sections))
+            }
+
+        }
+        respondSuccess("$fileChanged")
+    }
+
     suspend fun parse() {
-        val getAllFile = File("src/main/resources/devine_script/domain/get_all.json")
+        val getAllFile = File("src/main/resources/devine_script/domain/get_all_old.json")
         val type = object : TypeToken<List<DomainWithBranch>>() {}.type
         val resp = Gson().fromJson<List<DomainWithBranch>>(getAllFile.readText(), type)
         val grouping: Map<Int, List<DomainWithBranch>> = resp.groupBy { it.branchId }
@@ -59,7 +98,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull() ?: error("Provide domain id")
         val allDomainSectionsFile = File("src/main/resources/devine_script/domainSections/$domainId.json")
         val nextDomainToLoad = if (domainId < 182) {
-            val allDomainFile = File("src/main/resources/devine_script/domain/get_all.json")
+            val allDomainFile = File("src/main/resources/devine_script/domain/get_all_old.json")
             val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
             val domainWithBranchList =
                 Gson().fromJson<List<DomainWithBranch>>(allDomainFile.readText(), typeForDomainWithBranch)
@@ -82,7 +121,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                 displayDemonstration(demonstration)
                 if (nextDomainToLoad != null) {
                     val currentWindowUrl =
-                        "http://192.168.10.97:8080/displayDomain?domain_id=${nextDomainToLoad.domainId}"
+                        "$baseUrl/displayDomain?domain_id=${nextDomainToLoad.domainId}"
                     val newWindowUrl = nextDomainToLoad.domainHref
                     buttonInput {
                         value = "Next"
@@ -168,7 +207,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                         h1 { +it.content }
                     }
                     SectionTypeEnum.IMAGE -> {
-                        img(src = it.content)
+                        img(src = "$baseUrl" + it.content)
                         if (it.reference_link != null) {
                             br { }
                             a(href = it.reference_link) { +"${it.reference_title}" }

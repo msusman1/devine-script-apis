@@ -28,5 +28,6 @@ dependencies {
     implementation("io.ktor:ktor-server-netty:$ktorVersion")
     implementation("org.jsoup:jsoup:1.7.2")
     implementation(kotlin("stdlib-jdk8"))
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
 
 }

@@ -1,0 +1,262 @@
+<html lang="en">
+<head>
+    <title>Welcome to Exime</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/index.js"></script>
+
+</head>
+<body>
+
+<div id="side-bar">
+    <div class="brand-info pb-5 overflow-hidden  pt-3 ps-3">
+        <img alt="App logo" src="../images/app_icon.png" class="me-3">
+        <h6 class="d-inline align-middle fw-bold "><span class="position-absolute pt-1"> Exime Admin </span></h6>
+    </div>
+    <nav class="nav flex-column">
+        <a class="nav-link  active" href="#"><span class="bi bi-house "></span> <span
+                class="position-absolute">Home</span> </a>
+        <a class="nav-link " href="#"><span class="bi bi-people   "></span><span class="position-absolute">Users</span></a>
+        <a class="nav-link " href="#"><span class="bi bi-pentagon  "></span><span
+                class="position-absolute">Departments</span></a>
+        <a class="nav-link " href="#"><span class="bi bi-calendar3-range   "></span><span class="position-absolute">Monthly Test</span></a>
+        <hr>
+
+        <span class="ms-3 fw-light d-none d-sm-block">Other</span>
+        <a class="nav-link " href="#"><span class="bi bi-gear  "></span><span class="position-absolute">Settings</span></a>
+
+    </nav>
+</div>
+<section>
+    <div id="content" class=" p-3  bg-window">
+        <div class="row g-3">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-text mb-3">Total Departments </h6>
+                        <h1 class="card-title fw-bold d-inline">14</h1><span
+                            class="bi float-end bi-bar-chart bg-warning text-white rounded p-3 fs-4"></span>
+                        <p class="mt-3"><span class="text-warning fw-bold">0%</span> since last week</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-text mb-3">Total Branches </h6>
+                        <h1 class="card-title fw-bold d-inline">14</h1>
+                        <span class="bi float-end bi-graph-down bg-danger text-white rounded p-3 fs-4"></span>
+                        <p class="mt-3"><span class="text-danger fw-bold">-25%</span> since last week</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-text mb-3">Test Conducted</h6>
+                        <h1 class="card-title fw-bold d-inline">244</h1><span
+                            class="bi float-end bi-graph-up bg-info text-white rounded p-3 fs-4"></span>
+                        <p class="mt-3"><span class="text-info fw-bold">+15%</span> since last week</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-text mb-3">User Registered</h6>
+                        <h1 class="card-title fw-bold d-inline">1234</h1><span
+                            class="bi float-end bi-graph-up bg-success text-white rounded p-3 fs-4"></span>
+                        <p class="mt-3"><span class="text-success fw-bold">+5%</span> since last week</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3 mt-1">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+                <div class="card">
+                    <div class="card-header"><h5>Recent Test Conducted</h5></div>
+                    <div class="card-body">
+                        <canvas id="test_history_line"></canvas>
+                        <script>
+                            var testHistoryLine = document.getElementById('test_history_line')
+                            const configLine = {
+                                type: 'line',
+                                options: {
+                                    responsive: true
+                                },
+                                data: {
+                                    labels: ["Feb", "Mar", "Apr", "Mayd", "Jun", "Jul", "Aug", "Sep"],
+                                    datasets: [{
+                                        label: 'Month Wise Candidates',
+                                        data: [65, 59, 80, 100, 56, 55, 10, 20],
+                                        fill: true,
+                                        borderColor: 'rgb(53 , 162 , 235)',
+                                        tension: 0.3,
+                                        backgroundColor: 'rgba(53 , 162 , 235,0.2)',
+                                    }]
+                                }
+                            };
+                            var myChart3 = new Chart(testHistoryLine, configLine);
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card ">
+                    <div class="card-header">
+                        <h5>Qualification Test</h5>
+
+                    </div>
+                    <div class="card-body text-center">
+                        <canvas id="qualification-test-pie"></canvas>
+
+                        <h6 class="card-text mb-3 mt-3">Total Candidate </h6>
+                        <h1 class="card-title fw-bold ">124</h1>
+                        <div class="d-flex justify-content-evenly mt-5">
+                            <div>
+                                <h6 class="card-text mb-3 text-success">Passed</h6>
+                                <h1 class="card-title fw-bold ">104</h1>
+                            </div>
+                            <div>
+                                <h6 class="card-text mb-3 text-danger">Failed</h6>
+                                <h1 class="card-title fw-bold ">20</h1>
+                            </div>
+                        </div>
+                        <p class="mt-3"><span class="text-warning fw-bold">+12%</span> from last month</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card ">
+                    <div class="card-header">
+                        <h5>Mock Test</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <canvas id="mock-test-pie" width="100" height="100"></canvas>
+
+                        <h6 class="card-text mb-3 mt-3">Total Candidate </h6>
+                        <h1 class="card-title fw-bold ">314</h1>
+                        <div class="d-flex justify-content-evenly mt-5">
+                            <div>
+                                <h6 class="card-text mb-3 text-success">Passed</h6>
+                                <h1 class="card-title fw-bold ">254</h1>
+                            </div>
+                            <div>
+                                <h6 class="card-text mb-3 text-danger">Failed</h6>
+                                <h1 class="card-title fw-bold ">60</h1>
+                            </div>
+                        </div>
+                        <p class="mt-3"><span class="text-danger fw-bold">-22%</span> from last month</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="header"
+         class="d-flex align-items-center justify-content-between   bg-white pt-3 pb-3 shadow-sm position-fixed">
+        <span id="toggle-button" class="bi bi-list  fs-2 ms-3"></span>
+
+        <p class=" h6 fw-bold   ms-3 pt-2  ">Exime Home</p>
+        <div class="d-flex align-items-center">
+             <span id="bell-button" class="bi bi-bell position-relative fs-4 me-4">
+                <span class="position-absolute top-2 start-8 translate-middle p-2 bg-danger border border-light rounded-circle"></span>
+             </span>
+
+            <div class="dropdown">
+              <span id="hover-button" class="bi bi-person dropdown-toggle fs-3 pe-2 pe-sm-3  pe-md-4 "
+                    data-bs-toggle="dropdown">
+
+              </span>
+                <ul class="dropdown-menu" aria-labelledby="hover-button">
+                    <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Change
+                        password</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var qualificationTestPieElement = document.getElementById('qualification-test-pie')
+    var mockTestPieElement = document.getElementById('mock-test-pie')
+
+    let configsQualification = {
+        type: 'doughnut',
+        options: {
+            cutout: '85%',
+            aspectRatio: 1.5
+
+        },
+        data: {
+            labels: ['Passed', 'Failed', 'Promote'],
+            datasets: [{
+                label: 'no of Students',
+                data: [300, 50, 100],
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+                ],
+                hoverOffset: 4
+            }]
+        }
+    };
+    let configsMock = {
+        type: 'doughnut',
+        options: {
+            cutout: '85%',
+            aspectRatio: 1.5
+
+        },
+        data: {
+            labels: ['Passed', 'Failed', 'Promote'],
+            datasets: [{
+                label: '# of Students',
+                data: [100, 150, 200],
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)'
+                ],
+                hoverOffset: 4
+            }]
+        }
+    };
+
+
+    new Chart(qualificationTestPieElement, configsQualification);
+    new Chart(mockTestPieElement, configsMock);
+
+
+    var $chartId = document.getElementById('$chartId')
+
+
+</script>
+</html>
