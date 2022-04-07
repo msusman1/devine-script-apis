@@ -21,7 +21,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_1.webp"
+    "content": "images/domain_166_section_1.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -29,7 +29,7 @@
   },
   {
     "section_type": "MORAL",
-    "content": "How could an illiterate man who lived 1400 years ago have known about stones that burn?"
+    "content": "How could an illiterate man who lived 1400 years ago have known about meters?"
   },
   {
     "section_type": "PARAGRAPH",
@@ -41,7 +41,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_2.webp"
+    "content": "images/domain_166_section_2.webp"
   },
   {
     "section_type": "GENERAL_REFERENCE",
@@ -56,7 +56,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_3.webp"
+    "content": "images/domain_166_section_3.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -96,11 +96,11 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_4.webp"
+    "content": "images/domain_166_section_4.webp"
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_5.webp"
+    "content": "images/domain_166_section_5.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -108,11 +108,11 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_6.webp"
+    "content": "images/domain_166_section_6.webp"
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_7.webp"
+    "content": "images/domain_166_section_7.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -120,7 +120,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_8.webp"
+    "content": "images/domain_166_section_8.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -148,7 +148,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_9.webp"
+    "content": "images/domain_166_section_9.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -156,7 +156,7 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_10.webp"
+    "content": "images/domain_166_section_10.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -164,11 +164,11 @@
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_11.webp"
+    "content": "images/domain_166_section_11.webp"
   },
   {
     "section_type": "IMAGE",
-    "content": "devine_script/images/domain_166_section_12.webp"
+    "content": "images/domain_166_section_12.webp"
   },
   {
     "section_type": "PARAGRAPH",
@@ -176,6 +176,6 @@
   },
   {
     "section_type": "MORAL",
-    "content": "How could an illiterate man who lived 1400 years ago have known the distance to Sirius?"
+    "content": "How could an illiterate man who lived 1400 years ago have known about centi light-years?"
   }
 ]

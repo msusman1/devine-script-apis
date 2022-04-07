@@ -5,6 +5,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 import java.io.File
+
 //https://cdn.jsdelivr.net/gh/msusman1/devineScript/branch/allBranches
 object DevineUtils {
     val baseUrl = "https://www.miracles-of-quran.com/"
@@ -50,7 +51,7 @@ object DevineUtils {
                 header?.let { fullPath = extractBackdrop(document1, it) }
                 deomains.add(DomainModel(domainId++, titles, subtitles, fullPath, branchModel.branchId, href))
             }
-            val domainresp=Gson().toJson(BaseResponseDomain(true, data = deomains))
+            val domainresp = Gson().toJson(BaseResponseDomain(true, data = deomains))
             File("domains/${branchModel.branchId}.json").writeText(domainresp)
         }
 
@@ -192,7 +193,6 @@ object DevineUtils {
 }
 
 
-
 fun textContainsArabic(text: String): Boolean {
     for (charac in text.toCharArray()) {
         if (Character.UnicodeBlock.of(charac) === Character.UnicodeBlock.ARABIC) {
@@ -217,7 +217,176 @@ enum class DifficultyLevel {
     INTERMEDIATE,
     ADVANCED,
     EXTREME,
-    UNKNOWN,
+    UNKNOWN;
+
+    fun translate(langCode: String): String {
+      return  when (langCode) {
+            "zh" -> inChines()
+            "hi" -> inHindi()
+            "es" -> inSpanish()
+            "fr" -> inFrench()
+            "ru" -> inRussian()
+            "ja" -> inJapanese()
+            "pt" -> inPortuguese()
+            "id" -> inIndonesian()
+            "bn" -> inBengali()
+            "ar" -> inArabic()
+            "ur" -> inUrdu()
+            "de" -> inGerman()
+            "it" -> inItalian()
+            "ko" -> inKorean()
+            "tr" -> inTurkish()
+            else -> inEnglish()
+        }
+    }
+
+    private fun inEnglish(): String {
+        return this.name
+    }
+
+    private fun inUrdu(): String {
+        return when (this) {
+            EASY -> "آسان"
+            INTERMEDIATE -> "درمیانہ"
+            ADVANCED -> "مشکل"
+            EXTREME -> "انتہائی مشکل"
+            UNKNOWN -> "نامعلوم"
+
+        }
+    }
+
+    private fun inChines(): String {
+        return when (this) {
+            EASY -> "简单"
+            INTERMEDIATE -> "中间的"
+            ADVANCED -> "先进的"
+            EXTREME -> "极端"
+            UNKNOWN -> "未知"
+
+        }
+    }
+
+    private fun inHindi(): String {
+        return when (this) {
+            EASY -> "आसान"
+            INTERMEDIATE -> "मध्यम"
+            ADVANCED -> "उन्नत"
+            EXTREME -> "चरम"
+            UNKNOWN -> "अनजान"
+
+        }
+    }
+
+    private fun inSpanish(): String {
+        return when (this) {
+            EASY -> "FÁCIL"
+            INTERMEDIATE -> "INTERMEDIO"
+            ADVANCED -> "AVANZADO"
+            EXTREME -> "EXTREMO"
+            UNKNOWN -> "DESCONOCIDO"
+
+        }
+    }
+
+    private fun inFrench(): String {
+        return when (this) {
+            EASY -> "FACILE"
+            INTERMEDIATE -> "INTERMÉDIAIRE"
+            ADVANCED -> "AVANCÉE"
+            EXTREME -> "EXTRÊME"
+            UNKNOWN -> "INCONNU"
+        }
+    }
+    private fun inRussian(): String {
+        return when (this) {
+            EASY -> "ЛЕГКИЙ"
+            INTERMEDIATE -> "СРЕДНИЙ"
+            ADVANCED -> "ПЕРЕДОВОЙ"
+            EXTREME -> "ЭКСТРЕМАЛЬНЫЙ"
+            UNKNOWN -> "НЕИЗВЕСТНЫЙ"
+        }
+    }
+    private fun inJapanese(): String {
+        return when (this) {
+            EASY -> "簡単"
+            INTERMEDIATE -> "中級"
+            ADVANCED -> "高度"
+            EXTREME -> "過激"
+            UNKNOWN -> "わからない"
+        }
+    }
+    private fun inPortuguese(): String {
+        return when (this) {
+            EASY -> "FÁCIL"
+            INTERMEDIATE -> "INTERMEDIÁRIO"
+            ADVANCED -> "AVANÇADO"
+            EXTREME -> "EXTREMO"
+            UNKNOWN -> "DESCONHECIDO"
+        }
+    }
+    private fun inIndonesian(): String {
+        return when (this) {
+            EASY -> "MUDAH"
+            INTERMEDIATE -> "INTERMEDIAT"
+            ADVANCED -> "CANGGIH"
+            EXTREME -> "EKSTRIM"
+            UNKNOWN -> "TIDAK DIKENAL"
+        }
+    }
+    private fun inBengali(): String {
+        return when (this) {
+            EASY -> "সহজ"
+            INTERMEDIATE -> "মধ্যবর্তী"
+            ADVANCED -> "অ্যাডভান্সড"
+            EXTREME -> "চরম"
+            UNKNOWN -> "অজানা"
+        }
+    }
+    private fun inArabic(): String {
+        return when (this) {
+            EASY -> "سهل"
+            INTERMEDIATE -> "متوسط"
+            ADVANCED -> "المتقدمة"
+            EXTREME -> "أقصى الحدود"
+            UNKNOWN -> "مجهول"
+        }
+    }
+    private fun inGerman(): String {
+        return when (this) {
+            EASY -> "LEICHT"
+            INTERMEDIATE -> "DAZWISCHENLIEGEND"
+            ADVANCED -> "FORTSCHRITTLICH"
+            EXTREME -> "EXTREM"
+            UNKNOWN -> "UNBEKANNT"
+        }
+    }
+    private fun inItalian(): String {
+        return when (this) {
+            EASY -> "FACILE"
+            INTERMEDIATE -> "INTERMEDIO"
+            ADVANCED -> "AVANZATE"
+            EXTREME -> "ESTREMO"
+            UNKNOWN -> "SCONOSCIUTO"
+        }
+    }
+    private fun inKorean(): String {
+        return when (this) {
+            EASY -> "쉬운"
+            INTERMEDIATE -> "중급"
+            ADVANCED -> "고급의"
+            EXTREME -> "극심한"
+            UNKNOWN -> "알려지지 않은"
+        }
+    }
+    private fun inTurkish(): String {
+        return when (this) {
+            EASY -> "KOLAY"
+            INTERMEDIATE -> "ORTA SEVİYE"
+            ADVANCED -> "İLERİ"
+            EXTREME -> "AŞIRI"
+            UNKNOWN -> "BİLİNMEYEN"
+        }
+    }
 }
 
 enum class SectionTypeEnum {

@@ -5,6 +5,11 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import io.ktor.application.*
 import io.ktor.html.*
+import io.ktor.response.*
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.html.*
 import java.io.File
 
@@ -26,6 +31,20 @@ data class DomainWithBranch(
     val branchHref: String,
     val domainHref: String,
     var difficultyLevel: DifficultyLevel,
+)
+
+data class DomainWithBranch2(
+    val domainId: Int,
+    val domainTitle: String,
+    val domainSubtitle: String,
+    val domainThumbnail: String,
+    val branchId: Int,
+    val branchTitle: String,
+    val branchSubtitle: String,
+    val branchThumbnail: String,
+    val branchHref: String,
+    val domainHref: String,
+    var difficultyLevel: String,
 )
 
 //private val baseUrl = "http://192.168.10.97:8080/"
@@ -66,6 +85,122 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
         }
         respondSuccess("$fileChanged")
+    }
+
+    suspend fun translateSection() {
+        val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
+//        val domainId = call.request.queryParameters["domain_id"] ?: error("Provide domain_id")
+        var filesWirtten=0
+        for (domainId in 1..182) {
+            val fileToRead = File("src/main/resources/devine_script/domainSections/$domainId.json")
+            val langDir = File("src/main/resources/devine_script/domainSections/$lang")
+            if (!langDir.exists()) {
+                langDir.mkdir()
+            }
+            val fileToWrite = File(langDir, "$domainId.json")
+            val readText = fileToRead.readText()
+            val type = object : TypeToken<List<Section>>() {}.type
+            val sections = Gson().fromJson<List<Section>>(readText, type)
+
+            val newList = mutableListOf<Deferred<Section>>()
+
+            sections.forEach { section ->
+                val def = GlobalScope.async {
+                    getTranalatedSectionModel(section, lang)
+                }
+                newList.add(def)
+            }
+            val resp2 = newList.awaitAll()
+            fileToWrite.writeText(Gson().toJson(resp2))
+            filesWirtten++
+        }
+
+        call.respond("Files Written: $filesWirtten")
+    }
+
+
+    private suspend fun getTranalatedSectionModel(
+        section: Section,
+        lang: String,
+
+        ): Section {
+        val contentTranslation = if (section.section_type == SectionTypeEnum.IMAGE) {
+            section.content
+        } else {
+            OkhttpUtils.translate(section.content, lang) ?: ""
+        }
+        val headingTranslation =
+            if (section.section_type == SectionTypeEnum.GENERAL_REFERENCE && section.heading != null) {
+                OkhttpUtils.translate(section.heading, lang) ?: ""
+            } else {
+                section.heading
+            }
+        val refTitleTranslation =
+            if ((section.section_type == SectionTypeEnum.GENERAL_REFERENCE || section.section_type == SectionTypeEnum.QURAN_REFERENCE) && section.reference_title != null) {
+                OkhttpUtils.translate(section.reference_title, lang) ?: ""
+            } else {
+                section.reference_title
+            }
+
+
+        val mod = Section(
+            section_type = section.section_type,
+            content = contentTranslation,
+            content_ar = section.content_ar,
+            heading = headingTranslation,
+            reference_title = refTitleTranslation,
+            reference_link = section.reference_link,
+        )
+        return mod
+    }
+
+    suspend fun translate2() {
+        val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
+
+        val getAllFile = File("src/main/resources/devine_script/domain/get_all.json")
+        val type = object : TypeToken<List<DomainWithBranch>>() {}.type
+        val resp = Gson().fromJson<List<DomainWithBranch>>(getAllFile.readText(), type)
+
+        val newList = mutableListOf<Deferred<DomainWithBranch2>>()
+
+        resp.forEach { domainWithBranch ->
+            val def = GlobalScope.async {
+                getMOdel(domainWithBranch, lang)
+            }
+            newList.add(def)
+        }
+        val resp2 = newList.awaitAll()
+        call.respond(resp2)
+    }
+
+    private suspend fun getMOdel(
+        domainWithBranch: DomainWithBranch,
+        lang: String,
+
+        ): DomainWithBranch2 {
+        val mod = DomainWithBranch2(
+            domainId = domainWithBranch.domainId,
+            domainTitle = OkhttpUtils.translate(domainWithBranch.domainTitle, lang) ?: "",
+            domainSubtitle = OkhttpUtils.translate(domainWithBranch.domainSubtitle, lang) ?: "",
+            domainThumbnail = domainWithBranch.domainThumbnail,
+            branchId = domainWithBranch.branchId,
+            branchTitle = OkhttpUtils.translate(domainWithBranch.branchTitle, lang) ?: "",
+            branchSubtitle = OkhttpUtils.translate(domainWithBranch.branchSubtitle, lang) ?: "",
+            branchThumbnail = domainWithBranch.branchThumbnail,
+            branchHref = domainWithBranch.branchHref,
+            domainHref = domainWithBranch.domainHref,
+            difficultyLevel = domainWithBranch.difficultyLevel.translate(lang),
+        )
+        return mod
+    }
+
+    suspend fun translate() {
+        val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
+        val query = call.request.queryParameters["q"] ?: error("Provide query")
+        val translated: String? = OkhttpUtils.translate(query, lang)
+        respondSuccess(translated)
+
+
     }
 
     suspend fun parse() {
@@ -229,6 +364,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         respondSuccess(questionPojoList)
     }
 }
+
 
 
 

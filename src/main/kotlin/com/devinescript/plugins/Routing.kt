@@ -26,6 +26,10 @@ fun Application.configureRouting() {
             DevineController(this.call).fetchDemonstration()
 
         }
+        get("/translate") {
+            DevineController(this.call).translateSection()
+
+        }
         get("/") {
             call.respondText("Hello World!")
         }
