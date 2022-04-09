@@ -1,0 +1,30 @@
+[
+  {
+    "section_type": "PARAGRAPH",
+    "content": "\u003cbr\u003eHistoriquement, plusieurs conventions ont été utilisées pour définir des directions sur les cartes. Différentes conventions indiquaient différentes directions. C\u0026#39;est une vieille boussole et une vieille carte :"
+  },
+  {
+    "section_type": "IMAGE",
+    "content": "images/domain_89_section_1.webp"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "Cependant toutes les conventions antiques se sont estompées sauf une. Aujourd\u0026#39;hui, toutes les cartes utilisent le même standard : le haut correspond au nord, la droite à l\u0026#39;est, la gauche à l\u0026#39;ouest et le bas au sud. Cela signifie que si vous êtes debout, le soleil se lève à votre droite et le soleil se couche à votre gauche, vous faites face au nord et derrière vous se trouve le sud. Cependant, il y a 1400 ans, cela était décrit dans le Coran :"
+  },
+  {
+    "section_type": "QURAN_REFERENCE",
+    "content": "Vous verriez le soleil, quand il se levait, il brillait dans leur caverne par la droite, et quand il se couchait, il brillait par la gauche, alors qu\u0026#39;ils étaient couchés au milieu de la caverne. C\u0026#39;était une des merveilles d\u0026#39;Allah. Celui qu\u0026#39;Allah guide est vraiment guidé; mais celui qu\u0026#39;il égare, tu ne trouveras pour lui aucun ami directeur.",
+    "content_ar": "١٧ وَتَرَى الشَّمْسَ إِذَا طَلَعَتْ تَزَاوَرُ عَنْ كَهْفِهِمْ ذَاتَ الْيَمِينِ وَإِذَا غَرَبَتْ تَقْرِضُهُمْ ذَاتَ الشِّمَالِ وَهُمْ فِي فَجْوَةٍ مِنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ اللَّهِ ۗ مَنْ يَهْدِ اللَّهُ فَهُوَ الْمُهْتَدِ ۖ وَمَنْ يُضْلِلْ فَلَنْ تَجِدَ لَهُ وَلِيًّا مُرْشِدًا",
+    "heading": "",
+    "reference_title": "Coran 18:17",
+    "reference_link": "https://www.quranwow.com/#/ch/18/t1/ar-allah/t2/en-itania/a1/alafasy-64/a2/itania-48-b/v/17"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "Si le soleil se lève sur votre droite et qu\u0026#39;il se couche sur votre gauche, alors vous êtes définitivement face au nord et derrière vous se trouve le sud. C\u0026#39;est la même convention utilisée aujourd\u0026#39;hui dans toutes les cartes."
+  },
+  {
+    "section_type": "MORAL",
+    "content": "Comment un analphabète qui vivait il y a 1400 ans aurait-il pu savoir que vous deviez faire face au Nord ?"
+  }
+]

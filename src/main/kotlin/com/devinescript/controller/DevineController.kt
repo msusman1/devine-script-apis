@@ -90,13 +90,13 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     suspend fun translateSection() {
         val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
 //        val domainId = call.request.queryParameters["domain_id"] ?: error("Provide domain_id")
+        val langDir = File("src/main/resources/devine_script/domainSections/$lang")
+        if (!langDir.exists()) {
+            langDir.mkdir()
+        }
         var filesWirtten=0
         for (domainId in 1..182) {
             val fileToRead = File("src/main/resources/devine_script/domainSections/$domainId.json")
-            val langDir = File("src/main/resources/devine_script/domainSections/$lang")
-            if (!langDir.exists()) {
-                langDir.mkdir()
-            }
             val fileToWrite = File(langDir, "$domainId.json")
             val readText = fileToRead.readText()
             val type = object : TypeToken<List<Section>>() {}.type
