@@ -87,6 +87,28 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         respondSuccess("$fileChanged")
     }
 
+    suspend fun transalateSingleDomain() {
+        val langs = listOf("zh", "hi", "es", "fr", "ru", "ja", "pt", "id", "bn", "ar", "ur", "de", "it", "ko", "tr")
+        val fileToRead = File("src/main/resources/devine_script/domainSections/183.json")
+        val readText = fileToRead.readText()
+        val type = object : TypeToken<List<Section>>() {}.type
+        val sections = Gson().fromJson<List<Section>>(readText, type)
+
+        val langsSectionMap = mutableMapOf<String, Int>()
+        langs.forEach { lang ->
+            val newList = mutableListOf<Section>()
+            sections.forEach { section ->
+                val def: Section = getTranalatedSectionModel(section, lang)
+                newList.add(def)
+            }
+            val fileToWrite = File("src/main/resources/devine_script/domainSections/$lang/183.json")
+            fileToWrite.writeText(Gson().toJson(newList))
+            langsSectionMap[lang] = sections.size
+        }
+        call.respond("Langs Written: $langsSectionMap")
+
+    }
+
     suspend fun translateSection() {
         val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
 //        val domainId = call.request.queryParameters["domain_id"] ?: error("Provide domain_id")
@@ -94,7 +116,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         if (!langDir.exists()) {
             langDir.mkdir()
         }
-        var filesWirtten=0
+        var filesWirtten = 0
         for (domainId in 1..182) {
             val fileToRead = File("src/main/resources/devine_script/domainSections/$domainId.json")
             val fileToWrite = File(langDir, "$domainId.json")
@@ -272,6 +294,18 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
     }
 
+    suspend fun fetchAndJustDisplayDemonstration() {
+        val href = call.request.queryParameters["href"]?.toString()
+        val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull()
+        if (href == null || domainId == null) {
+            respondError("Provide href and domain id")
+            return
+        }
+        val demonstration: Demonstration? = DevineUtils.parseDemonstrations(href)
+        File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
+        respondSuccess(demonstration)
+    }
+
     suspend fun fetchDemonstration() {
         val href = call.request.queryParameters["href"]?.toString()
         val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull()
@@ -360,7 +394,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     }
 
     suspend fun fetchDomains() {
-        val questionPojoList = DevineUtils.parseDomain()
+        val questionPojoList = DevineUtils.parseAllDomains()
         respondSuccess(questionPojoList)
     }
 }

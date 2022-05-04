@@ -28,7 +28,7 @@ object DevineUtils {
         return branches
     }
 
-    fun parseDomain(): Int {
+    fun parseAllDomains(): Int {
         val fileContent = File("branches/all.json").readText()
         val allBranches = Gson().fromJson(fileContent, BaseResponse::class.java).data
         var domainId = 113

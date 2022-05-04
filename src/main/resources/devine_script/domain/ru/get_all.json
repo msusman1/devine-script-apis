@@ -2364,5 +2364,18 @@
 "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
 "domainHref": "https://www.miracles-of-quran.com/galaxy_filaments.html",
 "difficultyLevel": "ЭКСТРЕМАЛЬНЫЙ"
-}
+},
+  {
+    "domainId": 183,
+    "domainTitle": "Мозговой ствол",
+    "domainSubtitle": "Связан со сном и смертью.",
+    "domainThumbnail": "images/domain_183.webp",
+    "branchId": 2,
+    "branchTitle": "Биология",
+    "branchSubtitle": "Наука о живых организмах",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
+    "difficultyLevel": "ЭКСТРЕМАЛЬНЫЙ"
+  }
 ]
