@@ -1222,19 +1222,6 @@
     "difficultyLevel": "EASY"
   },
   {
-    "domainId": 182,
-    "domainTitle": "Skydiving",
-    "domainSubtitle": "Free-fall from the sky.",
-    "domainThumbnail": "images/domain_182.webp",
-    "branchId": 4,
-    "branchTitle": "History",
-    "branchSubtitle": "Study of the past",
-    "branchThumbnail": "images/branch_4.webp",
-    "branchHref": "https://www.miracles-of-quran.com/history.html",
-    "domainHref": "https://www.miracles-of-quran.com/skydiving.html",
-    "difficultyLevel": "EASY"
-  },
-  {
     "domainId": 95,
     "domainTitle": "Full Moon",
     "domainSubtitle": "Can only be seen at night.",
@@ -2366,6 +2353,19 @@
     "difficultyLevel": "EXTREME"
   },
   {
+    "domainId": 182,
+    "domainTitle": "Skydiving",
+    "domainSubtitle": "Free-fall from the sky.",
+    "domainThumbnail": "images/domain_182.webp",
+    "branchId": 4,
+    "branchTitle": "History",
+    "branchSubtitle": "Study of the past",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/skydiving.html",
+    "difficultyLevel": "EASY"
+  },
+  {
     "domainId": 183,
     "domainTitle": "Brainstem",
     "domainSubtitle": "Linked to sleep and death.",
@@ -2377,5 +2377,31 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "EXTREME"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "Prostrations",
+    "domainSubtitle": "On the chins.",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "History",
+    "branchSubtitle": "Study of the past",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "Nutrient Cycle",
+    "domainSubtitle": "Decomposed matter recycled.",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "Botany",
+    "branchSubtitle": "Science of plants",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "EASY"
   }
 ]

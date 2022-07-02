@@ -2377,5 +2377,31 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "過激"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "衰弱",
+    "domainSubtitle": "あごに。",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "歴史",
+    "branchSubtitle": "過去の研究",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "簡単"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "養分循環",
+    "domainSubtitle": "分解物はリサイクル。",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "植物学",
+    "branchSubtitle": "植物の科学",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "簡単"
   }
 ]

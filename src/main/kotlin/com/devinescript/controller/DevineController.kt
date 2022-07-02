@@ -89,7 +89,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
     suspend fun transalateSingleDomain() {
         val langs = listOf("zh", "hi", "es", "fr", "ru", "ja", "pt", "id", "bn", "ar", "ur", "de", "it", "ko", "tr")
-        val fileToRead = File("src/main/resources/devine_script/domainSections/183.json")
+        val fileToRead = File("src/main/resources/devine_script/domainSections/185.json")
         val readText = fileToRead.readText()
         val type = object : TypeToken<List<Section>>() {}.type
         val sections = Gson().fromJson<List<Section>>(readText, type)
@@ -101,7 +101,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                 val def: Section = getTranalatedSectionModel(section, lang)
                 newList.add(def)
             }
-            val fileToWrite = File("src/main/resources/devine_script/domainSections/$lang/183.json")
+            val fileToWrite = File("src/main/resources/devine_script/domainSections/$lang/185.json")
             fileToWrite.writeText(Gson().toJson(newList))
             langsSectionMap[lang] = sections.size
         }
@@ -302,7 +302,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             return
         }
         val demonstration: Demonstration? = DevineUtils.parseDemonstrations(href)
-        File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
+//        File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
         respondSuccess(demonstration)
     }
 

@@ -2377,5 +2377,31 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "극심한"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "절",
+    "domainSubtitle": "턱에.",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "역사",
+    "branchSubtitle": "과거 연구",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "영양주기",
+    "domainSubtitle": "분해된 물질을 재활용합니다.",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "식물학",
+    "branchSubtitle": "식물 과학",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "쉬운"
   }
 ]

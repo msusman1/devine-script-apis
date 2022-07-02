@@ -2377,5 +2377,34 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "চরম"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "প্রণাম",
+    "domainSubtitle": "চিবুক উপর.",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "ইতিহাস",
+    "branchSubtitle": "অতীতের অধ্যয়ন",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "পুষ্টি চক্র",
+    "domainSubtitle": "পচনশীল পদার্থ পুনর্ব্যবহারযোগ্য।",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "উদ্ভিদবিদ্যা",
+    "branchSubtitle": "উদ্ভিদ বিজ্ঞান",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "সহজ"
   }
 ]
+
+
+

@@ -2377,5 +2377,31 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "EKSTRIM"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "sujud",
+    "domainSubtitle": "Di dagu.",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "Sejarah",
+    "branchSubtitle": "Studi masa lalu",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "MUDAH"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "Siklus Nutrisi",
+    "domainSubtitle": "Materi yang terurai didaur ulang.",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "Botani",
+    "branchSubtitle": "Ilmu tumbuhan",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "MUDAH"
   }
 ]

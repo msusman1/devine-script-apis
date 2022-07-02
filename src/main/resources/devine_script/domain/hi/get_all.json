@@ -2377,5 +2377,31 @@
     "branchHref": "https://www.miracles-of-quran.com/biology.html",
     "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
     "difficultyLevel": "चरम"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "साष्टांग प्रणाम",
+    "domainSubtitle": "ठुड्डी पर।",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "इतिहास",
+    "branchSubtitle": "अतीत का अध्ययन",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "पोषक चक्र",
+    "domainSubtitle": "विघटित पदार्थ का पुनर्चक्रण।",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "वनस्पति विज्ञान",
+    "branchSubtitle": "पौधों का विज्ञान",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "आसान"
   }
 ]
