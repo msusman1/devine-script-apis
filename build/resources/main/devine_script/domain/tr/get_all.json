@@ -2364,5 +2364,44 @@
 "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
 "domainHref": "https://www.miracles-of-quran.com/galaxy_filaments.html",
 "difficultyLevel": "AŞIRI"
-}
+},
+  {
+    "domainId": 183,
+    "domainTitle": "Beyin sapı",
+    "domainSubtitle": "Uyku ve ölümle bağlantılı.",
+    "domainThumbnail": "images/domain_183.webp",
+    "branchId": 2,
+    "branchTitle": "Biyoloji",
+    "branchSubtitle": "Canlı organizma bilimi",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/brainstem.html",
+    "difficultyLevel": "AŞIRI"
+  },
+  {
+    "domainId": 184,
+    "domainTitle": "secdeler",
+    "domainSubtitle": "Çenelerde.",
+    "domainThumbnail": "images/domain_184.jpeg",
+    "branchId": 4,
+    "branchTitle": "Tarih",
+    "branchSubtitle": "Geçmişin incelenmesi",
+    "branchThumbnail": "images/branch_4.webp",
+    "branchHref": "https://www.miracles-of-quran.com/history.html",
+    "domainHref": "https://www.miracles-of-quran.com/prostrations.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 185,
+    "domainTitle": "Besin Döngüsü",
+    "domainSubtitle": "Ayrışmış madde geri dönüştürülmüş.",
+    "domainThumbnail": "images/domain_185.webp",
+    "branchId": 9,
+    "branchTitle": "Botanik",
+    "branchSubtitle": "Bitki bilimi",
+    "branchThumbnail": "images/branch_9.webp",
+    "branchHref": "https://www.miracles-of-quran.com/botany.html",
+    "domainHref": "https://www.miracles-of-quran.com/nutrient_cycle.html",
+    "difficultyLevel": "KOLAY"
+  }
 ]

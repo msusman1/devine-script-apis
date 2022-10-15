@@ -1,0 +1,49 @@
+[
+  {
+    "section_type": "PARAGRAPH",
+    "content": "1400年前、人々は光があなたが見ることができるものであると考えていました。見えない光があるなんて誰も信じませんでした。今日、これは誤りであることがわかっています。電磁スペクトルのほとんどは実際には見えません。"
+  },
+  {
+    "section_type": "IMAGE",
+    "content": "images/domain_62_section_1.webp"
+  },
+  {
+    "section_type": "GENERAL_REFERENCE",
+    "content": "電磁放射の種類は、大きく次のクラス（領域、帯域、または種類）に分類されます。\u003cbr\u003e 1）ガンマ線\u003cbr\u003e2）X線放射\u003cbr\u003e3）紫外線放射\u003cbr\u003e4）可視放射線\u003cbr\u003e5）赤外線放射\u003cbr\u003e6）テラヘルツ放射\u003cbr\u003e7）マイクロ波放射\u003cbr\u003e8）電波\u003cbr\u003eこの分類は、放射のタイプの特徴である波長の昇順で行われます。",
+    "heading": "電磁スペクトル",
+    "reference_title": "ウィキペディア、電磁スペクトル、2019",
+    "reference_link": "https://en.wikipedia.org/wiki/Electromagnetic_spectrum"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "可視光は電磁スペクトルのごく一部を構成します。つまり、宇宙のほとんどの光を見ることができません。"
+  },
+  {
+    "section_type": "IMAGE",
+    "content": "images/domain_62_section_2.gif"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "これは私たちが見ることができない赤外光の例です。これは最近知られていましたが、これは発見される1400年前のコーランで描写されていました。"
+  },
+  {
+    "section_type": "QURAN_REFERENCE",
+    "content": "私はあなたが見るものとあなたが見ないものによって誓います。",
+    "content_ar": "٣٨ فَلَا أُقْسِمُ بِمَا تُبْصِرُونَ\u003cbr\u003e٣٩ وَمَا لَا تُبْصِرُونَ",
+    "heading": "",
+    "reference_title": "コーラン69：38-39",
+    "reference_link": "https://www.quranwow.com/#/ch/69/t1/ar-allah/t2/en-itania/a1/alafasy-64/a2/itania-48-b/v/38"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "神は私たちが見る光と私たちが見ることができない光によって誓います。今日、私たちはほとんどの光が肉眼では見えないことを知っています。"
+  },
+  {
+    "section_type": "MORAL",
+    "content": "1400年前に住んでいた読み書きのできない人は、私たちが見ることができない光があることをどうやって知ることができたのでしょうか。"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "（聖書によれば、神は4000年前のノアの時代に虹を創造されました（ \u003ca href\u003d\"https://www.biblegateway.com/passage/?search\u003dGenesis+9%3A12-13\u0026amp;version\u003dNIV\" class\u003d\"text-primary\" target\u003d\"_blank\"\u003e創世記9：12-13\u003c/a\u003e ）。これは誤りであることが判明しました。虹は光と水滴の相互作用によって引き起こされる現象です。光の特性とそれが他の物質とどのように相互作用するかは、137億年前のビッグバン以来変わっていません。）"
+  }
+]

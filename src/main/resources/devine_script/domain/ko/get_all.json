@@ -1951,8 +1951,8 @@
   },
   {
     "domainId": 150,
-    "domainTitle": "광합성",
-    "domainSubtitle": "설탕을 형성합니다.",
+    "domainTitle": "엽록소",
+    "domainSubtitle": "녹색과 광합성.",
     "domainThumbnail": "images/domain_150.webp",
     "branchId": 9,
     "branchTitle": "식물학",

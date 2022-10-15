@@ -1951,8 +1951,8 @@
   },
   {
     "domainId": 150,
-    "domainTitle": "光合成",
-    "domainSubtitle": "砂糖を形成します。",
+    "domainTitle": "クロロフィル",
+    "domainSubtitle": "緑色と光合成。",
     "domainThumbnail": "images/domain_150.webp",
     "branchId": 9,
     "branchTitle": "植物学",
