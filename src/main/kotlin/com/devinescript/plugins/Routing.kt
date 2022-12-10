@@ -32,7 +32,9 @@ fun Application.configureRouting() {
         }
         get("/translates") {
             DevineController(this.call).transalateSingleDomain()
-
+        }
+        get("/translates_domains") {
+            DevineController(this.call).justTranslanateAndDisplayAllDomains()
         }
         get("/") {
             call.respondText("Hello World!")

@@ -88,8 +88,14 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     }
 
     suspend fun transalateSingleDomain() {
+
+        val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull()
+        if ( domainId == null) {
+            respondError("Provide domain id")
+            return
+        }
         val langs = listOf("zh", "hi", "es", "fr", "ru", "ja", "pt", "id", "bn", "ar", "ur", "de", "it", "ko", "tr")
-        val fileToRead = File("src/main/resources/devine_script/domainSections/185.json")
+        val fileToRead = File("src/main/resources/devine_script/domainSections/$domainId.json")
         val readText = fileToRead.readText()
         val type = object : TypeToken<List<Section>>() {}.type
         val sections = Gson().fromJson<List<Section>>(readText, type)
@@ -101,7 +107,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                 val def: Section = getTranalatedSectionModel(section, lang)
                 newList.add(def)
             }
-            val fileToWrite = File("src/main/resources/devine_script/domainSections/$lang/185.json")
+            val fileToWrite = File("src/main/resources/devine_script/domainSections/$lang/$domainId.json")
             fileToWrite.writeText(Gson().toJson(newList))
             langsSectionMap[lang] = sections.size
         }
@@ -152,7 +158,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             OkhttpUtils.translate(section.content, lang) ?: ""
         }
         val headingTranslation =
-            if (section.section_type == SectionTypeEnum.GENERAL_REFERENCE && section.heading != null) {
+            if ((section.section_type == SectionTypeEnum.GENERAL_REFERENCE || section.section_type == SectionTypeEnum.QURAN_REFERENCE) && section.heading != null) {
                 OkhttpUtils.translate(section.heading, lang) ?: ""
             } else {
                 section.heading
@@ -176,7 +182,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         return mod
     }
 
-    suspend fun translate2() {
+    suspend fun justTranslanateAndDisplayAllDomains() {
         val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
 
         val getAllFile = File("src/main/resources/devine_script/domain/get_all.json")

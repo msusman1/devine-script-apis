@@ -1,0 +1,33 @@
+[
+  {
+    "section_type": "PARAGRAPH",
+    "content": "Today we rely extensively on GPS for navigation. A GPS processes signals from multiple artificial satellites and then uses mathematics to determine the exact location. However these satellites turned out to be very vulnerable to modern warfare; they could easily be jammed or shot down by missiles. But luckily scientists just confirmed that they could use the signals from pulsars and then use mathematics to determine the exact location. Pulsars are secure and free forever."
+  },
+  {
+    "section_type": "GENERAL_REFERENCE",
+    "content": "",
+    "heading": "X-ray pulsar-based navigation and timing (XNAV) or simply pulsar navigation is a navigation technique whereby the periodic X-ray signals emitted from pulsars are used to determine the location of a vehicle, such as a spacecraft in deep space. A vehicle using XNAV would compare received X-ray signals with a database of known pulsar frequencies and locations. Similar to GPS, this comparison would allow the vehicle to calculate its position accurately (±5 km). The advantage of using X-ray signals over radio waves is that X-ray telescopes can be made smaller and lighter. Experimental demonstrations have been reported in 2018.",
+    "reference_title": "Wikipedia, Pulsar-Based Navigation, 2022",
+    "reference_link": "https://en.wikipedia.org/wiki/Pulsar-based_navigation"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "A pulsar is a rotating magnetized star and we can use it for navigation. This was known recently; however this was portrayed in the Quran 1400 years before it was discovered."
+  },
+  {
+    "section_type": "QURAN_REFERENCE",
+    "content": "And landmarks. And by the stars they guide themselves.",
+    "content_ar": "١٦ وَعَلَامَاتٍ ۚ وَبِالنَّجْمِ هُمْ يَهْتَدُونَ",
+    "heading": "",
+    "reference_title": "Quran 16:16",
+    "reference_link": "https://www.quranwow.com/#/ch/16/t1/ar-allah/t2/en-itania/a1/alafasy-64/a2/itania-48-b/v/16"
+  },
+  {
+    "section_type": "PARAGRAPH",
+    "content": "&quot;<strong>And by the stars they guide themselves</strong>&quot; today we know what it is; this is pulsar navigation."
+  },
+  {
+    "section_type": "MORAL",
+    "content": "How could an illiterate man who lived 1400 years ago have known about pulsar navigation?"
+  }
+]
