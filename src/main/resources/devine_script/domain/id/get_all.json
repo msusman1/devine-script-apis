@@ -2455,5 +2455,70 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "MUDAH"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Energi matahari",
+    "domainSubtitle": "Konservasi Energi.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Fisika",
+    "branchSubtitle": "Ilmu gerak dan perilaku melalui ruang dan waktu",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "MUDAH"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Bioluminesensi",
+    "domainSubtitle": "Berikan cahayamu sendiri.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Biologi",
+    "branchSubtitle": "Ilmu tentang organisme hidup",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "EKSTRIM"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Warna",
+    "domainSubtitle": "Manusia tidak dapat melihat warna dalam cahaya redup.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Biologi",
+    "branchSubtitle": "Ilmu tentang organisme hidup",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "MUDAH"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Penguncian pasang surut",
+    "domainSubtitle": "Sisi yang sama selalu menghadap bintang.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomi",
+    "branchSubtitle": "Ilmu benda langit",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "EKSTRIM"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Penglihatan kabur pada lansia terkait dengan zat besi.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "Fisiologi",
+    "branchSubtitle": "Fungsi organ",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "EKSTRIM"
   }
 ]

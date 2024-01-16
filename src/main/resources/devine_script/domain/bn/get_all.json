@@ -2455,5 +2455,70 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "সৌরশক্তি",
+    "domainSubtitle": "শক্তির নিত্যতা.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "পদার্থবিদ্যা",
+    "branchSubtitle": "স্থান এবং সময়ের মাধ্যমে গতি এবং আচরণের বিজ্ঞান",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "বায়োলুমিনিসেন্স",
+    "domainSubtitle": "নিজেদের আলো দিন।",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "জীববিদ্যা",
+    "branchSubtitle": "জীবন্ত প্রাণীর বিজ্ঞান",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "চরম"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "রং",
+    "domainSubtitle": "মানুষ আবছা আলোতে রং দেখতে পারে না।",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "জীববিদ্যা",
+    "branchSubtitle": "জীবন্ত প্রাণীর বিজ্ঞান",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "জোয়ার লকিং",
+    "domainSubtitle": "একই দিকে সবসময় তারার মুখোমুখি হয়।",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "জ্যোতির্বিদ্যা",
+    "branchSubtitle": "স্বর্গীয় বস্তুর বিজ্ঞান",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "চরম"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "লোহার সাথে যুক্ত বয়স্কদের মধ্যে ঝাপসা দৃষ্টি।",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "ফিজিওলজি",
+    "branchSubtitle": "অঙ্গ-প্রত্যঙ্গের কার্যাবলী",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "চরম"
   }
 ]

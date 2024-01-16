@@ -2455,5 +2455,78 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "태양 에너지",
+    "domainSubtitle": "에너지 보존.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "물리학",
+    "branchSubtitle": "시공간을 통한 움직임과 행동의 과학",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "생물발광",
+    "domainSubtitle": "당신 자신의 빛을주십시오.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "생물학",
+    "branchSubtitle": "살아있는 유기체의 과학",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "극심한"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "그림 물감",
+    "domainSubtitle": "인간은 희미한 빛에서는 색상을 볼 수 없습니다.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "생물학",
+    "branchSubtitle": "살아있는 유기체의 과학",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "조수 잠금",
+    "domainSubtitle": "같은 면은 항상 별을 향합니다.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "천문학",
+    "branchSubtitle": "천체의 과학",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "극심한"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "철분과 관련된 노인의 시력 저하.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "생리학",
+    "branchSubtitle": "장기의 기능",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "극심한"
   }
 ]
+
+
+
+
+
+
+
+

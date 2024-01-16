@@ -2455,5 +2455,78 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "सौर ऊर्जा",
+    "domainSubtitle": "ऊर्जा संरक्षण।",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "भौतिक विज्ञान",
+    "branchSubtitle": "अंतरिक्ष और समय के माध्यम से गति और व्यवहार का विज्ञान",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "बायोलुमिनसेंस",
+    "domainSubtitle": "अपनी रोशनी खुद दो.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "जीवविज्ञान",
+    "branchSubtitle": "जीवों का विज्ञान",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "चरम"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "रंग की",
+    "domainSubtitle": "मनुष्य मंद प्रकाश में रंग नहीं देख सकता।",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "जीवविज्ञान",
+    "branchSubtitle": "जीवों का विज्ञान",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "ज्वारीय ताला",
+    "domainSubtitle": "तारे का मुख सदैव एक ही पक्ष की ओर होता है।",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "खगोल",
+    "branchSubtitle": "आकाशीय पिंडों का विज्ञान",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "चरम"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "बुजुर्गों में धुंधली दृष्टि आयरन से जुड़ी हुई है।",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "शरीर क्रिया विज्ञान",
+    "branchSubtitle": "अंगों के कार्य",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "चरम"
   }
 ]
+
+
+
+
+
+
+
+

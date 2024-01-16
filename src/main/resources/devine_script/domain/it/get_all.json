@@ -2455,5 +2455,79 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Energia solare",
+    "domainSubtitle": "Conservazione dell'energia.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Fisica",
+    "branchSubtitle": "Scienza del movimento e del comportamento attraverso lo spazio e il tempo",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Bioluminescenza",
+    "domainSubtitle": "Regala la tua luce.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Biologia",
+    "branchSubtitle": "Scienza degli organismi viventi",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "ESTREMO"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Colori",
+    "domainSubtitle": "Gli esseri umani non possono vedere i colori in condizioni di scarsa illuminazione.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Biologia",
+    "branchSubtitle": "Scienza degli organismi viventi",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Blocco delle maree",
+    "domainSubtitle": "Lo stesso lato è sempre rivolto verso la stella.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomia",
+    "branchSubtitle": "Scienza degli oggetti celesti",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "ESTREMO"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Visione offuscata negli anziani legata al ferro.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "Fisiologia",
+    "branchSubtitle": "Funzioni degli organi",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "ESTREMO"
   }
 ]
+
+
+
+
+
+
+
+
+

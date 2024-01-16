@@ -2455,5 +2455,78 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Güneş enerjisi",
+    "domainSubtitle": "Enerjinin korunumu.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Fizik",
+    "branchSubtitle": "Uzay ve zamanda hareket ve davranış bilimi",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Biyolüminesans",
+    "domainSubtitle": "Kendi ışığını ver.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Biyoloji",
+    "branchSubtitle": "Canlı organizma bilimi",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "AŞIRI"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Renkler",
+    "domainSubtitle": "İnsanlar loş ışıkta renkleri göremezler.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Biyoloji",
+    "branchSubtitle": "Canlı organizma bilimi",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Gelgit kilitleme",
+    "domainSubtitle": "Her zaman aynı taraf yıldıza dönüktür.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomi",
+    "branchSubtitle": "gök cisimleri bilimi",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "AŞIRI"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Yaşlılarda demirle bağlantılı bulanık görme.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "fizyoloji",
+    "branchSubtitle": "organların işlevleri",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "AŞIRI"
   }
 ]
+
+
+
+
+
+
+
+

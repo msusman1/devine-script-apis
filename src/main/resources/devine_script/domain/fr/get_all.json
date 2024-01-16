@@ -2455,5 +2455,79 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Énergie solaire",
+    "domainSubtitle": "Conservation d'énergie.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "La physique",
+    "branchSubtitle": "Science du mouvement et du comportement à travers l\u0026#39;espace et le temps",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Bioluminescence",
+    "domainSubtitle": "Donnez votre propre lumière.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "La biologie",
+    "branchSubtitle": "Science des organismes vivants",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "EXTRÊME"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Couleurs",
+    "domainSubtitle": "Les humains ne peuvent pas voir les couleurs dans une faible lumière.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "La biologie",
+    "branchSubtitle": "Science des organismes vivants",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "FACILE"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Verrouillage des marées",
+    "domainSubtitle": "Le même côté fait toujours face à l’étoile.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomie",
+    "branchSubtitle": "Science des objets célestes",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "EXTRÊME"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Vision floue chez les personnes âgées liée au fer.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "Physiologie",
+    "branchSubtitle": "Fonctions des organes",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "EXTRÊME"
   }
 ]
+
+
+
+
+
+
+
+
+

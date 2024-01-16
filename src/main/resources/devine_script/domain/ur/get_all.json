@@ -2455,5 +2455,78 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "شمسی توانائی",
+    "domainSubtitle": "توانائی کا تحفظ۔",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "فزکس",
+    "branchSubtitle": "خلا اور وقت کے ذریعے حرکت اور رویے کی سائنس",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "بائولومینیسینس",
+    "domainSubtitle": "اپنی روشنی دو۔",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "حیاتیات",
+    "branchSubtitle": "جانداروں کی سائنس",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "انتہائی مشکل"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "رنگ",
+    "domainSubtitle": "انسان مدھم روشنی میں رنگ نہیں دیکھ سکتا۔",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "حیاتیات",
+    "branchSubtitle": "جانداروں کی سائنس",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "ٹائیڈل لاکنگ",
+    "domainSubtitle": "ایک ہی طرف ہمیشہ ستارے کا سامنا کرنا پڑتا ہے۔",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "فلکیات",
+    "branchSubtitle": "آسمانی اشیاء کی سائنس",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "انتہائی مشکل"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "لوہے سے منسلک بزرگوں میں دھندلا پن۔",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "فزیالوجی",
+    "branchSubtitle": "اعضاء کے افعال",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "انتہائی مشکل"
   }
 ]
+
+
+
+
+
+
+
+

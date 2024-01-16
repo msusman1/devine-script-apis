@@ -2455,5 +2455,70 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "LEICHT"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Zonne energie",
+    "domainSubtitle": "Behoud van energie.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Physik",
+    "branchSubtitle": "Wissenschaft der Bewegung und des Verhaltens durch Raum und Zeit",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "LEICHT"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Bioluminescentie",
+    "domainSubtitle": "Geef hun eigen licht.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Biologie",
+    "branchSubtitle": "Wissenschaft der lebenden Organismen",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "EXTREM"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Kleuren",
+    "domainSubtitle": "Mensen kunnen bij weinig licht geen kleuren zien.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Biologie",
+    "branchSubtitle": "Wissenschaft der lebenden Organismen",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "LEICHT"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Getijdenvergrendeling",
+    "domainSubtitle": "Dezelfde kant is altijd naar de ster gericht.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomie",
+    "branchSubtitle": "Wissenschaft der Himmelsobjekte",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "EXTREM"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Wazig zien bij ouderen gekoppeld aan ijzer.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "Physiologie",
+    "branchSubtitle": "Funktionen der Organe",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "EXTREM"
   }
 ]

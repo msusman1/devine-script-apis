@@ -2455,5 +2455,78 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "ЛЕГКИЙ"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Солнечная энергия",
+    "domainSubtitle": "Сохранение энергии.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Физика",
+    "branchSubtitle": "Наука о движении и поведении в пространстве и времени",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "ЛЕГКИЙ"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Биолюминесценция",
+    "domainSubtitle": "Дайте свой собственный свет.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Биология",
+    "branchSubtitle": "Наука о живых организмах",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "ЭКСТРЕМАЛЬНЫЙ"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Цвета",
+    "domainSubtitle": "Люди не могут видеть цвета в тусклом свете.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Биология",
+    "branchSubtitle": "Наука о живых организмах",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "ЛЕГКИЙ"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Приливная блокировка",
+    "domainSubtitle": "Одна и та же сторона всегда обращена к звезде.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "астрономия",
+    "branchSubtitle": "Наука о небесных объектах",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "ЭКСТРЕМАЛЬНЫЙ"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Затуманивание зрения у пожилых людей связано с железом.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "физиология",
+    "branchSubtitle": "Функции органов",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "ЭКСТРЕМАЛЬНЫЙ"
   }
 ]
+
+
+
+
+
+
+
+

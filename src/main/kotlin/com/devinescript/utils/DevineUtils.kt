@@ -59,7 +59,7 @@ object DevineUtils {
     }
 
 
-    suspend fun parseDemonstrations(url: String): Demonstration? {
+    suspend fun parseDemonstrations(url: String): List<Section>? {
         if (url.isBlank()) {
             return null
         }
@@ -69,8 +69,8 @@ object DevineUtils {
         val allSectionElements = document.body().getElementsByTag("section")
             .filter { it.id().startsWith("content") || it.id().startsWith("image") }.toMutableList()
         val backDropElement = allSectionElements.removeFirst() //bg image section removed
-        val fullPath = extractBackdrop(document, backDropElement)
-        val difficultyLevel = extractDifficultyLevel(backDropElement)
+//        val fullPath = extractBackdrop(document, backDropElement)
+//        val difficultyLevel = extractDifficultyLevel(backDropElement)
         allSectionElements.removeFirst()//title section removed
         allSectionElements.forEach {
             if (it.id().startsWith("image")) {   //is image
@@ -85,7 +85,7 @@ object DevineUtils {
                 sections.add(extractMoralSection(it))
             }
         }
-        return Demonstration(difficultyLevel, fullPath, sections)
+        return sections
     }
 
     private fun extractParagraphSection(element: Element): Section {

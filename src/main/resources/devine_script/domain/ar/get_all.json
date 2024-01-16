@@ -2455,5 +2455,70 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "سهل"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "طاقة شمسية",
+    "domainSubtitle": "الحفاظ على الطاقة.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "الفيزياء",
+    "branchSubtitle": "علم الحركة والسلوك عبر المكان والزمان",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "سهل"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "تلألؤ بيولوجي",
+    "domainSubtitle": "إعطاء الضوء الخاصة بهم.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "مادة الاحياء",
+    "branchSubtitle": "علم الكائنات الحية",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "أقصى الحدود"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "الألوان",
+    "domainSubtitle": "لا يستطيع الإنسان رؤية الألوان في الضوء الخافت.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "مادة الاحياء",
+    "branchSubtitle": "علم الكائنات الحية",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "سهل"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "حبس المد والجزر",
+    "domainSubtitle": "يواجه نفس الجانب دائمًا نجمة",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "الفلك",
+    "branchSubtitle": "علم الأجرام السماوية",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "أقصى الحدود"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "علم وظائف الأعضاء - متطرف",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "علم وظائف الأعضاء",
+    "branchSubtitle": "وظائف الأعضاء",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "أقصى الحدود"
   }
 ]

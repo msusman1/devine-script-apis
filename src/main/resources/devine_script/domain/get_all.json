@@ -2455,5 +2455,70 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "Solar Energy",
+    "domainSubtitle": "Conservation Of Energy.",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "Physics",
+    "branchSubtitle": "Science of motion and behavior through space and time",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "Bioluminescence",
+    "domainSubtitle": "Give their own light.",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "Biology",
+    "branchSubtitle": "Science of living organisms",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "EXTREME"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "Colors",
+    "domainSubtitle": "Humans cannot see colors in dim light.",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "Biology",
+    "branchSubtitle": "Science of living organisms",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "Tidal Locking",
+    "domainSubtitle": "Same side always faces star.",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomy",
+    "branchSubtitle": "Science of celestial objects",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "EXTREME"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "Blurred vision in elderly linked to iron.",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "Physiology",
+    "branchSubtitle": "Functions of organs",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "EXTREME"
   }
 ]

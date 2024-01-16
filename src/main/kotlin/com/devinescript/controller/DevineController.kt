@@ -90,7 +90,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     suspend fun transalateSingleDomain() {
 
         val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull()
-        if ( domainId == null) {
+        if (domainId == null) {
             respondError("Provide domain id")
             return
         }
@@ -260,15 +260,11 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     suspend fun displayDemonstration() {
         val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull() ?: error("Provide domain id")
         val allDomainSectionsFile = File("src/main/resources/devine_script/domainSections/$domainId.json")
-        val nextDomainToLoad = if (domainId < 182) {
-            val allDomainFile = File("src/main/resources/devine_script/domain/get_all_old.json")
-            val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
-            val domainWithBranchList =
-                Gson().fromJson<List<DomainWithBranch>>(allDomainFile.readText(), typeForDomainWithBranch)
-            domainWithBranchList.find { it.domainId == domainId + 1 }
-        } else {
-            null
-        }
+
+        val allDomainFile = File("src/main/resources/devine_script/domain/get_all.json")
+        val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
+        val domainWithBranchList = Gson().fromJson<List<DomainWithBranch>>(allDomainFile.readText(), typeForDomainWithBranch)
+        val nextDomainToLoad = domainWithBranchList.find { it.domainId == domainId + 1 }
 
 
         val sectionType = object : TypeToken<List<Section>>() {}.type
@@ -281,7 +277,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             }
 
             body {
-                displayDemonstration(demonstration)
+                displayDemonstration(demonstration.sections)
                 if (nextDomainToLoad != null) {
                     val currentWindowUrl =
                         "$baseUrl/displayDomain?domain_id=${nextDomainToLoad.domainId}"
@@ -307,8 +303,8 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             respondError("Provide href and domain id")
             return
         }
-        val demonstration: Demonstration? = DevineUtils.parseDemonstrations(href)
-//        File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
+        val demonstration = DevineUtils.parseDemonstrations(href)
+        File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
         respondSuccess(demonstration)
     }
 
@@ -319,10 +315,11 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             respondError("Provide href and domain id")
             return
         }
+
         val allDomainsStr = File("devine-script-data/domains/all.json").readText()
         val allDomains = Gson().fromJson(allDomainsStr, BaseResponseDomain::class.java).data
         val nextDomainToLoad: DomainModel? = allDomains.filter { it.domainId > domainId }.firstOrNull()
-        val demonstration: Demonstration? = DevineUtils.parseDemonstrations(href)
+        val demonstration = DevineUtils.parseDemonstrations(href)
         val resp = Response(true, data = demonstration)
         File("devine-script-data/sections/${domainId}.json").writeText(Gson().toJson(resp))
         if (demonstration != null) {
@@ -355,9 +352,9 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
     }
 
-    private fun BODY.displayDemonstration(demonstration: Demonstration) {
+    private fun BODY.displayDemonstration(sections: List<Section>) {
         div(classes = "container") {
-            demonstration.sections.forEach {
+            sections.forEach {
                 when (it.section_type) {
                     SectionTypeEnum.GENERAL_REFERENCE -> {
                         div(classes = "referenc") {
@@ -366,9 +363,11 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                             a(href = it.reference_link) { +"${it.reference_title}" }
                         }
                     }
+
                     SectionTypeEnum.PARAGRAPH -> {
                         p { unsafe { +it.content } }
                     }
+
                     SectionTypeEnum.QURAN_REFERENCE -> {
                         div(classes = "referenc") {
                             h3 { +"${it.heading}" }
@@ -378,9 +377,11 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                         }
 
                     }
+
                     SectionTypeEnum.MORAL -> {
                         h1 { +it.content }
                     }
+
                     SectionTypeEnum.IMAGE -> {
                         img(src = "$baseUrl" + it.content)
                         if (it.reference_link != null) {

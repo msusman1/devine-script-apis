@@ -2455,5 +2455,79 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "簡単"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "太陽光エネルギー",
+    "domainSubtitle": "電気の保存。",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "物理",
+    "branchSubtitle": "空間と時間による運動と行動の科学",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "簡単"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "生物発光",
+    "domainSubtitle": "あなた自身の光を与えてください。",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "生物学",
+    "branchSubtitle": "生物科学",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "過激"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "色",
+    "domainSubtitle": "人間は薄暗い光の中では色を見ることができません。",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "生物学",
+    "branchSubtitle": "生物科学",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "簡単"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "潮止め",
+    "domainSubtitle": "常に同じ側が星を向いています。",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "天文学",
+    "branchSubtitle": "天体科学",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "過激"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "高齢者の目のかすみは鉄と関連しています。",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "生理",
+    "branchSubtitle": "臓器の機能",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "過激"
   }
 ]
+
+
+
+
+
+
+
+
+

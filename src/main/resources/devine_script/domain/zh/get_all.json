@@ -2455,5 +2455,79 @@
     "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
     "domainHref": "https://www.miracles-of-quran.com/axial_tilt.html",
     "difficultyLevel": "简单"
+  },
+  {
+    "domainId": 191,
+    "domainTitle": "太阳能",
+    "domainSubtitle": "节约能源。",
+    "domainThumbnail": "images/domain_191.webp",
+    "branchId": 3,
+    "branchTitle": "物理",
+    "branchSubtitle": "穿越时空的运动和行为科学",
+    "branchThumbnail": "images/branch_3.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physics.html",
+    "domainHref": "https://www.miracles-of-quran.com/solar_energy.html",
+    "difficultyLevel": "简单"
+  },
+  {
+    "domainId": 192,
+    "domainTitle": "生物发光",
+    "domainSubtitle": "给予你自己的光。",
+    "domainThumbnail": "images/domain_192.webp",
+    "branchId": 2,
+    "branchTitle": "生物学",
+    "branchSubtitle": "生物科学",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/bioluminescence.html",
+    "difficultyLevel": "极端"
+  },
+  {
+    "domainId": 193,
+    "domainTitle": "颜色",
+    "domainSubtitle": "人类在昏暗的光线下看不到颜色。",
+    "domainThumbnail": "images/domain_193.webp",
+    "branchId": 2,
+    "branchTitle": "生物学",
+    "branchSubtitle": "生物科学",
+    "branchThumbnail": "images/branch_2.jpeg",
+    "branchHref": "https://www.miracles-of-quran.com/biology.html",
+    "domainHref": "https://www.miracles-of-quran.com/colors.html",
+    "difficultyLevel": "简单"
+  },
+  {
+    "domainId": 194,
+    "domainTitle": "潮汐锁定",
+    "domainSubtitle": "同一面总是面向星星。",
+    "domainThumbnail": "images/domain_194.webp",
+    "branchId": 5,
+    "branchTitle": "天文学",
+    "branchSubtitle": "天体科学",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/tidal_locking.html",
+    "difficultyLevel": "极端"
+  },
+  {
+    "domainId": 195,
+    "domainTitle": "AMD",
+    "domainSubtitle": "老年人视力模糊与铁有关。",
+    "domainThumbnail": "images/domain_195.webp",
+    "branchId": 15,
+    "branchTitle": "生理",
+    "branchSubtitle": "器官的功能",
+    "branchThumbnail": "images/branch_15.webp",
+    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
+    "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "极端"
   }
 ]
+
+
+
+
+
+
+
+
+
