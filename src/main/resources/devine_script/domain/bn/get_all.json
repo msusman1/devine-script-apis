@@ -546,19 +546,6 @@
     "difficultyLevel": "চরম"
   },
   {
-    "domainId": 43,
-    "domainTitle": "ঘাম",
-    "domainSubtitle": "শরীরের তাপমাত্রা কমায়।",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "ফিজিওলজি",
-    "branchSubtitle": "অঙ্গ-প্রত্যঙ্গের কার্যাবলী",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "অ্যাডভান্সড"
-  },
-  {
     "domainId": 44,
     "domainTitle": "কোলেস্টেরল",
     "domainSubtitle": "ধমনী জমাট বাঁধে।",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "চরম"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "রেড জায়ান্ট",
+    "domainSubtitle": "সূর্য পৃথিবীকে গ্রাস করবে।",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "জ্যোতির্বিদ্যা",
+    "branchSubtitle": "স্বর্গীয় বস্তুর বিজ্ঞান",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "অয়লার নম্বর",
+    "domainSubtitle": "ঈশ্বরের সূত্র।",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "অংক",
+    "branchSubtitle": "পরিমাণ, গঠন, স্থান এবং পরিবর্তনের বিজ্ঞান",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "অ্যাডভান্সড"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "তারা",
+    "domainSubtitle": "সময় ফিরে তাকান.",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "জ্যোতির্বিদ্যা",
+    "branchSubtitle": "স্বর্গীয় বস্তুর বিজ্ঞান",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "শুকনো নদী",
+    "domainSubtitle": "পিরামিডের নদী ছিল।",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "মিশরবিদ্যা",
+    "branchSubtitle": "প্রাচীন মিশর অধ্যয়ন",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "সহজ"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "বড় ক্রাঞ্চ",
+    "domainSubtitle": "মাধ্যাকর্ষণ দ্বারা সৃষ্ট",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "কসমোলজি",
+    "branchSubtitle": "মহাবিশ্বের উৎপত্তি এবং বিবর্তনের বিজ্ঞান",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "চরম"
   }
 ]

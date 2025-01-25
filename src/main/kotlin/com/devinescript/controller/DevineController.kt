@@ -11,7 +11,7 @@ import kotlinx.html.*
 import java.io.File
 
 
-val baseUrl = "http://192.168.1.3:8080/"
+val baseUrl = "http://192.168.1.3:8181/"
 
 class DevineController(call: ApplicationCall) : BaseController(call) {
     val scope = CoroutineScope(Dispatchers.IO)
@@ -68,7 +68,6 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
         val readText = fileToRead.readText()
         val type = object : TypeToken<List<Section>>() {}.type
         val sections = Gson().fromJson<List<Section>>(readText, type)
-
         val langsSectionMap = mutableMapOf<String, Int>()
         langs.forEach { lang ->
             val newList = mutableListOf<Section>()
@@ -194,9 +193,11 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
             return
         }
 
-        val allDomainsStr = File("src/main/resources/devine_script/domains/get_all.json").readText()
-        val allDomains = Gson().fromJson(allDomainsStr, BaseResponseDomain::class.java).data
-        val nextDomainToLoad: DomainModel? = allDomains.filter { it.domainId > domainId }.firstOrNull()
+        val allDomainFile = File("src/main/resources/devine_script/domain/get_all.json")
+
+        val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
+        val allDomains: List<DomainWithBranch> = Gson().fromJson(allDomainFile.readText(), typeForDomainWithBranch)
+        val nextDomainToLoad: DomainWithBranch? = allDomains.filter { it.domainId > domainId }.firstOrNull()
         val demonstration = DevineUtils.parseDemonstrations(href)
         File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
         if (demonstration != null) {
@@ -210,8 +211,8 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
                     displayDemonstration(demonstration)
                     if (nextDomainToLoad != null) {
                         val currentWindowUrl =
-                            "$baseUrl/parse?domain_id=${nextDomainToLoad.domainId}&href=${nextDomainToLoad.href}"
-                        val newWindowUrl = nextDomainToLoad.href
+                            "$baseUrl/parse?domain_id=${nextDomainToLoad.domainId}&href=${nextDomainToLoad.domainHref}"
+                        val newWindowUrl = nextDomainToLoad.domainHref
                         buttonInput {
                             value = "Next"
                             onClick = "onOkClick(\"$currentWindowUrl\",\"$newWindowUrl\")"

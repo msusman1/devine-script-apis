@@ -546,19 +546,6 @@
     "difficultyLevel": "AŞIRI"
   },
   {
-    "domainId": 43,
-    "domainTitle": "terleme",
-    "domainSubtitle": "Vücut ısısını düşürür.",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "fizyoloji",
-    "branchSubtitle": "organların işlevleri",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "İLERİ"
-  },
-  {
     "domainId": 44,
     "domainTitle": "Kolesterol",
     "domainSubtitle": "Damarları tıkar.",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "AŞIRI"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "Kırmızı Dev",
+    "domainSubtitle": "Güneş dünyayı yutacak.",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomi",
+    "branchSubtitle": "gök cisimleri bilimi",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "Euler\u0027in Numarası",
+    "domainSubtitle": "Tanrı\u0027nın formülü.",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "Matematik",
+    "branchSubtitle": "Nicelik, yapı, uzay ve değişim bilimi",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "İLERİ"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "Yıldızlar",
+    "domainSubtitle": "Zamanda geriye bakmak.",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomi",
+    "branchSubtitle": "gök cisimleri bilimi",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "Kurutulmuş Nehir",
+    "domainSubtitle": "Piramitlerin nehirleri vardı.",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "Mısırbilim",
+    "branchSubtitle": "Eski Mısır Çalışması",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "KOLAY"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "Büyük çıtırtı",
+    "domainSubtitle": "Yerçekimi nedeniyle.",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "kozmoloji",
+    "branchSubtitle": "Evrenin kökeni ve evrimi bilimi",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "AŞIRI"
   }
 ]

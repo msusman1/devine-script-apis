@@ -546,19 +546,6 @@
     "difficultyLevel": "चरम"
   },
   {
-    "domainId": 43,
-    "domainTitle": "पसीना",
-    "domainSubtitle": "शरीर का तापमान कम करता है।",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "शरीर क्रिया विज्ञान",
-    "branchSubtitle": "अंगों के कार्य",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "उन्नत"
-  },
-  {
     "domainId": 44,
     "domainTitle": "कोलेस्ट्रॉल",
     "domainSubtitle": "धमनियों को बंद कर देता है।",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "चरम"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "लाल विशाल",
+    "domainSubtitle": "सूर्य पृथ्वी को निगल जाएगा।",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "खगोल",
+    "branchSubtitle": "आकाशीय पिंडों का विज्ञान",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "यूलर का नंबर",
+    "domainSubtitle": "भगवान का सूत्र।",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "गणित",
+    "branchSubtitle": "मात्रा, संरचना, स्थान और परिवर्तन का विज्ञान",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "उन्नत"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "सितारे",
+    "domainSubtitle": "समय में पीछे मुड़कर देखें।",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "खगोल",
+    "branchSubtitle": "आकाशीय पिंडों का विज्ञान",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "सूखी नदी",
+    "domainSubtitle": "पिरामिडों में नदियाँ थीं।",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "मिसरशास्र",
+    "branchSubtitle": "प्राचीन मिस्र का अध्ययन",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "आसान"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "बड़ी कमी",
+    "domainSubtitle": "गुरुत्वाकर्षण के कारण।",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "ब्रह्मांड विज्ञान",
+    "branchSubtitle": "ब्रह्मांड की उत्पत्ति और विकास का विज्ञान",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "चरम"
   }
 ]

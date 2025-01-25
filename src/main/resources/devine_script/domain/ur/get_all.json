@@ -546,19 +546,6 @@
     "difficultyLevel": "انتہائی مشکل"
   },
   {
-    "domainId": 43,
-    "domainTitle": "پسینہ آنا۔",
-    "domainSubtitle": "جسم کے درجہ حرارت کو کم کرتا ہے۔",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "فزیالوجی",
-    "branchSubtitle": "اعضاء کے افعال",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "مشکل"
-  },
-  {
     "domainId": 44,
     "domainTitle": "کولیسٹرول",
     "domainSubtitle": "شریانوں کو بند کرنا۔",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "انتہائی مشکل"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "ریڈ جائنٹ",
+    "domainSubtitle": "سورج زمین کو نگل جائے گا۔",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "فلکیات",
+    "branchSubtitle": "آسمانی اشیاء کی سائنس",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "یولر کا نمبر",
+    "domainSubtitle": "خدا کا فارمولا۔",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "ریاضی",
+    "branchSubtitle": "مقدار، ساخت، جگہ اور تبدیلی کی سائنس",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "مشکل"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "ستارے",
+    "domainSubtitle": "وقت میں پیچھے مڑ کر دیکھنا۔",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "فلکیات",
+    "branchSubtitle": "آسمانی اشیاء کی سائنس",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "خشک دریا",
+    "domainSubtitle": "اہرام میں دریا تھے۔",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "مصریات",
+    "branchSubtitle": "قدیم مصر کا مطالعہ",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "آسان"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "بڑا کرنچ",
+    "domainSubtitle": "کشش ثقل کی وجہ سے",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "کاسمولوجی",
+    "branchSubtitle": "کائنات کی ابتدا اور ارتقا کی سائنس",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "انتہائی مشکل"
   }
 ]

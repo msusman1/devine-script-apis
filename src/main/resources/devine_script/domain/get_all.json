@@ -546,19 +546,6 @@
     "difficultyLevel": "EXTREME"
   },
   {
-    "domainId": 43,
-    "domainTitle": "Perspiration",
-    "domainSubtitle": "Reduces body temperature.",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "Physiology",
-    "branchSubtitle": "Functions of organs",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "ADVANCED"
-  },
-  {
     "domainId": 44,
     "domainTitle": "Cholesterol",
     "domainSubtitle": "Clogs arteries.",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "EXTREME"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "Red Giant",
+    "domainSubtitle": "Sun will swallow Earth.",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomy",
+    "branchSubtitle": "Science of celestial objects",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "Euler's Number",
+    "domainSubtitle": "God’s Formula.",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "Mathematics",
+    "branchSubtitle": "Science of quantity, structure, space and change",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "ADVANCED"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "Stars",
+    "domainSubtitle": "Looking back in time.",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "Astronomy",
+    "branchSubtitle": "Science of celestial objects",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "Dried River",
+    "domainSubtitle": "Pyramids had rivers.",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "Egyptology",
+    "branchSubtitle": "Study of ancient Egypt",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "EASY"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "Big Crunch",
+    "domainSubtitle": "Caused by gravity.",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "Cosmology",
+    "branchSubtitle": "Science of the origin and evolution of the universe",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "EXTREME"
   }
 ]

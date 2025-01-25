@@ -546,19 +546,6 @@
     "difficultyLevel": "극심한"
   },
   {
-    "domainId": 43,
-    "domainTitle": "발한",
-    "domainSubtitle": "체온을 낮춥니다.",
-    "domainThumbnail": "images/domain_43.webp",
-    "branchId": 15,
-    "branchTitle": "생리학",
-    "branchSubtitle": "장기의 기능",
-    "branchThumbnail": "images/branch_15.webp",
-    "branchHref": "https://www.miracles-of-quran.com/physiology.html",
-    "domainHref": "https://www.miracles-of-quran.com/perspiration.html",
-    "difficultyLevel": "고급의"
-  },
-  {
     "domainId": 44,
     "domainTitle": "콜레스테롤",
     "domainSubtitle": "동맥을 막습니다.",
@@ -2519,6 +2506,71 @@
     "branchThumbnail": "images/branch_15.webp",
     "branchHref": "https://www.miracles-of-quran.com/physiology.html",
     "domainHref": "https://www.miracles-of-quran.com/amd.html",
+    "difficultyLevel": "극심한"
+  },
+  {
+    "domainId": 196,
+    "domainTitle": "레드 자이언트",
+    "domainSubtitle": "태양은 지구를 삼킬 것입니다.",
+    "domainThumbnail": "images/domain_196.webp",
+    "branchId": 5,
+    "branchTitle": "천문학",
+    "branchSubtitle": "천체의 과학",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/red_giant.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 197,
+    "domainTitle": "오일러의 번호",
+    "domainSubtitle": "하나님의 공식.",
+    "domainThumbnail": "images/domain_197.webp",
+    "branchId": 11,
+    "branchTitle": "수학",
+    "branchSubtitle": "수량, 구조, 공간 및 변화의 과학",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/euler.html",
+    "difficultyLevel": "고급의"
+  },
+  {
+    "domainId": 198,
+    "domainTitle": "별",
+    "domainSubtitle": "시간을 되짚어 보면.",
+    "domainThumbnail": "images/domain_198.webp",
+    "branchId": 5,
+    "branchTitle": "천문학",
+    "branchSubtitle": "천체의 과학",
+    "branchThumbnail": "images/branch_5.jpg",
+    "branchHref": "https://www.miracles-of-quran.com/astronomy.html",
+    "domainHref": "https://www.miracles-of-quran.com/stars.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 199,
+    "domainTitle": "말린 강",
+    "domainSubtitle": "피라미드에는 강이 있었습니다.",
+    "domainThumbnail": "images/domain_199.webp",
+    "branchId": 13,
+    "branchTitle": "이집트학",
+    "branchSubtitle": "고대 이집트 연구",
+    "branchThumbnail": "images/branch_13.webp",
+    "branchHref": "https://www.miracles-of-quran.com/egyptology.html",
+    "domainHref": "https://www.miracles-of-quran.com/dried_rivers.html",
+    "difficultyLevel": "쉬운"
+  },
+  {
+    "domainId": 200,
+    "domainTitle": "큰 위기",
+    "domainSubtitle": "중력에 의해 발생합니다.",
+    "domainThumbnail": "images/domain_200.gif",
+    "branchId": 12,
+    "branchTitle": "우주론",
+    "branchSubtitle": "우주의 기원과 진화에 관한 과학",
+    "branchThumbnail": "images/branch_12.webp",
+    "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
+    "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "극심한"
   }
 ]
