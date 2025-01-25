@@ -5,7 +5,6 @@ import com.devinescript.controller.DevineController
 import io.ktor.application.*
 import io.ktor.features.*
 
-import io.ktor.http.*
 import io.ktor.http.content.*
 import io.ktor.response.*
 import io.ktor.routing.*
@@ -26,15 +25,12 @@ fun Application.configureRouting() {
             DevineController(this.call).fetchDemonstration()
 
         }
-        get("/fetchDemonstration") {
-            DevineController(this.call).fetchAndJustDisplayDemonstration()
 
-        }
         get("/translates") {
-            DevineController(this.call).transalateSingleDomain()
+            DevineController(this.call).translateDomainSections()
         }
         get("/translates_domains") {
-            DevineController(this.call).justTranslanateAndDisplayAllDomains()
+            DevineController(this.call).justTranslateAndDisplayAllDomains()
         }
         get("/") {
             call.respondText("Hello World!")
@@ -46,7 +42,7 @@ fun Application.configureRouting() {
             DevineController(this.call).displayDemonstration()
         }
         get("/image_download") {
-            DevineController(this.call).downlaodImages()
+            DevineController(this.call).downloadImages()
         }
         get("/rename") {
 //            DevineController(this.call).renameFiles()

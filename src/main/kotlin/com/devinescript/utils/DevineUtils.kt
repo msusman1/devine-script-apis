@@ -8,13 +8,14 @@ import java.io.File
 
 //https://cdn.jsdelivr.net/gh/msusman1/devineScript/branch/allBranches
 object DevineUtils {
-    val baseUrl = "https://www.miracles-of-quran.com/"
-    fun parseBranches(url: String = baseUrl): List<BranchModel> {
+    val MIRACLES_OF_QURAN_Url = "https://www.miracles-of-quran.com/"
+    fun parseBranches(url: String = MIRACLES_OF_QURAN_Url): List<BranchModel> {
         val branches = mutableListOf<BranchModel>()
         val document = Jsoup.connect(url).timeout(10000).userAgent("Mozilla").get()
         val body = document.body()
         val features = body.getElementsByClass("features2")
-        val allAs: List<String> = features.flatMap { it.getElementsByTag("a") }.map { baseUrl + it.attr("href") }
+        val allAs: List<String> =
+            features.flatMap { it.getElementsByTag("a") }.map { MIRACLES_OF_QURAN_Url + it.attr("href") }
         allAs.forEachIndexed { index, href ->
             val document1 = Jsoup.connect(href).timeout(10000).userAgent("Mozilla").get()
             val newBody = document1.body()
@@ -37,7 +38,8 @@ object DevineUtils {
             val document = Jsoup.connect(branchModel.href).timeout(10000).userAgent("Mozilla").get()
             val body = document.body()
             val features = body.getElementsByClass("features2")
-            val allAs: List<String> = features.flatMap { it.getElementsByTag("a") }.map { baseUrl + it.attr("href") }
+            val allAs: List<String> =
+                features.flatMap { it.getElementsByTag("a") }.map { MIRACLES_OF_QURAN_Url + it.attr("href") }
             allAs.forEachIndexed { index, href ->
                 val document1 = Jsoup.connect(href).timeout(10000).userAgent("Mozilla").get()
                 val newBody = document1.body()
@@ -187,7 +189,7 @@ object DevineUtils {
         }
         val newStr = str.substring(startIndex, endIndex)
         val fullPath =
-            baseUrl + newStr.substring(newStr.indexOf("assets/"), newStr.indexOf("\");"))
+            MIRACLES_OF_QURAN_Url + newStr.substring(newStr.indexOf("assets/"), newStr.indexOf("\");"))
         return fullPath
     }
 }
@@ -220,7 +222,7 @@ enum class DifficultyLevel {
     UNKNOWN;
 
     fun translate(langCode: String): String {
-      return  when (langCode) {
+        return when (langCode) {
             "zh" -> inChines()
             "hi" -> inHindi()
             "es" -> inSpanish()
@@ -297,6 +299,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "INCONNU"
         }
     }
+
     private fun inRussian(): String {
         return when (this) {
             EASY -> "ЛЕГКИЙ"
@@ -306,6 +309,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "НЕИЗВЕСТНЫЙ"
         }
     }
+
     private fun inJapanese(): String {
         return when (this) {
             EASY -> "簡単"
@@ -315,6 +319,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "わからない"
         }
     }
+
     private fun inPortuguese(): String {
         return when (this) {
             EASY -> "FÁCIL"
@@ -324,6 +329,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "DESCONHECIDO"
         }
     }
+
     private fun inIndonesian(): String {
         return when (this) {
             EASY -> "MUDAH"
@@ -333,6 +339,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "TIDAK DIKENAL"
         }
     }
+
     private fun inBengali(): String {
         return when (this) {
             EASY -> "সহজ"
@@ -342,6 +349,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "অজানা"
         }
     }
+
     private fun inArabic(): String {
         return when (this) {
             EASY -> "سهل"
@@ -351,6 +359,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "مجهول"
         }
     }
+
     private fun inGerman(): String {
         return when (this) {
             EASY -> "LEICHT"
@@ -360,6 +369,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "UNBEKANNT"
         }
     }
+
     private fun inItalian(): String {
         return when (this) {
             EASY -> "FACILE"
@@ -369,6 +379,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "SCONOSCIUTO"
         }
     }
+
     private fun inKorean(): String {
         return when (this) {
             EASY -> "쉬운"
@@ -378,6 +389,7 @@ enum class DifficultyLevel {
             UNKNOWN -> "알려지지 않은"
         }
     }
+
     private fun inTurkish(): String {
         return when (this) {
             EASY -> "KOLAY"
@@ -416,3 +428,34 @@ data class DomainModel(
 
 data class BaseResponse(val success: Boolean, val data: List<BranchModel>)
 data class BaseResponseDomain(val success: Boolean, val data: List<DomainModel>)
+
+suspend fun getTranalatedSectionModel(section: Section, lang: String): Section {
+    val contentTranslation = if (section.section_type == SectionTypeEnum.IMAGE) {
+        section.content
+    } else {
+        OkhttpUtils.translate(section.content, lang) ?: ""
+    }
+    val headingTranslation =
+        if ((section.section_type == SectionTypeEnum.GENERAL_REFERENCE || section.section_type == SectionTypeEnum.QURAN_REFERENCE) && section.heading != null) {
+            OkhttpUtils.translate(section.heading, lang) ?: ""
+        } else {
+            section.heading
+        }
+    val refTitleTranslation =
+        if ((section.section_type == SectionTypeEnum.GENERAL_REFERENCE || section.section_type == SectionTypeEnum.QURAN_REFERENCE) && section.reference_title != null) {
+            OkhttpUtils.translate(section.reference_title, lang) ?: ""
+        } else {
+            section.reference_title
+        }
+
+
+    val mod = Section(
+        section_type = section.section_type,
+        content = contentTranslation,
+        content_ar = section.content_ar,
+        heading = headingTranslation,
+        reference_title = refTitleTranslation,
+        reference_link = section.reference_link,
+    )
+    return mod
+}
