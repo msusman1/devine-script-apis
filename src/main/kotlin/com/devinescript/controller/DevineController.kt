@@ -6,10 +6,7 @@ import com.google.gson.reflect.TypeToken
 import io.ktor.application.*
 import io.ktor.html.*
 import io.ktor.response.*
-import kotlinx.coroutines.Deferred
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.*
 import kotlinx.html.*
 import java.io.File
 
@@ -17,6 +14,7 @@ import java.io.File
 val baseUrl = "http://192.168.1.3:8080/"
 
 class DevineController(call: ApplicationCall) : BaseController(call) {
+    val scope = CoroutineScope(Dispatchers.IO)
 
     /*
    * load all domains for english
@@ -87,36 +85,57 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
     }
 
 
+    private fun getBranchTitleAndSubTitleTranslated(branchId: Int, lang: String): Pair<String, String> {
+        val domainStr = File("src/main/resources/devine_script/domain/${lang}/get_all.json")
+        val type = object : TypeToken<List<DomainWithBranch>>() {}.type
+        val domainsWithBranch = Gson().fromJson<List<DomainWithBranch>>(domainStr.readText(), type)
+        val domainWithBranch = domainsWithBranch.find { it.branchId == branchId }
+        val branchTitle = domainWithBranch?.branchTitle ?: ""
+        val branchSubtitle = domainWithBranch?.branchSubtitle ?: ""
+        return branchTitle to branchSubtitle
+    }
     /*
     * load english domain and translate for all langs
      */
+
     suspend fun justTranslateAndDisplayAllDomains() {
-        val lang = call.request.queryParameters["lang"] ?: error("Provide lang")
+        val langs = listOf("zh", "hi", "es", "fr", "ru", "ja", "pt", "id", "bn", "ar", "ur", "de", "it", "ko", "tr")
+        val domainsToTranslate = listOf(196, 197, 198, 199, 200)
 
-        val getAllFile = File("src/main/resources/devine_script/domain/get_all.json")
+        val getEngDomainsStr = File("src/main/resources/devine_script/domain/get_all.json")
         val type = object : TypeToken<List<DomainWithBranch>>() {}.type
-        val resp = Gson().fromJson<List<DomainWithBranch>>(getAllFile.readText(), type)
-
-        val newList = mutableListOf<Deferred<DomainWithBranch2>>()
-
-        resp.forEach { domainWithBranch ->
-            val def = GlobalScope.async {
-                getModel(domainWithBranch, lang)
+        val engDomains = Gson().fromJson<List<DomainWithBranch>>(getEngDomainsStr.readText(), type)
+            .filter { domainsToTranslate.contains(it.domainId) }
+        val finalList = mutableMapOf<String, List<DomainWithBranch2>>()
+        langs.forEach { lang ->
+            val domainsDeferred: List<Deferred<DomainWithBranch2>> = engDomains.map { domainWithBranch ->
+                scope.async {
+                    getModel(
+                        domainWithBranch = domainWithBranch,
+                        lang = lang,
+                        branchTitleSubtitle = getBranchTitleAndSubTitleTranslated(domainWithBranch.branchId, lang),
+                    )
+                }
             }
-            newList.add(def)
+            val domains: List<DomainWithBranch2> = domainsDeferred.awaitAll()
+            finalList.put(lang, domains)
         }
-        val resp2 = newList.awaitAll()
-        call.respond(resp2)
+        respondSuccess(finalList)
+
     }
 
-    private suspend fun getModel(domainWithBranch: DomainWithBranch, lang: String) = DomainWithBranch2(
+    private suspend fun getModel(
+        domainWithBranch: DomainWithBranch,
+        lang: String,
+        branchTitleSubtitle: Pair<String, String>,
+    ) = DomainWithBranch2(
         domainId = domainWithBranch.domainId,
         domainTitle = OkhttpUtils.translate(domainWithBranch.domainTitle, lang) ?: "",
         domainSubtitle = OkhttpUtils.translate(domainWithBranch.domainSubtitle, lang) ?: "",
         domainThumbnail = domainWithBranch.domainThumbnail,
         branchId = domainWithBranch.branchId,
-        branchTitle = OkhttpUtils.translate(domainWithBranch.branchTitle, lang) ?: "",
-        branchSubtitle = OkhttpUtils.translate(domainWithBranch.branchSubtitle, lang) ?: "",
+        branchTitle = branchTitleSubtitle.first,
+        branchSubtitle = branchTitleSubtitle.second,
         branchThumbnail = domainWithBranch.branchThumbnail,
         branchHref = domainWithBranch.branchHref,
         domainHref = domainWithBranch.domainHref,
