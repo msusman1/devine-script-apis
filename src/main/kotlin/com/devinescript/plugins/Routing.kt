@@ -23,7 +23,6 @@ fun Application.configureRouting() {
         }
         get("/parse") {
             DevineController(this.call).fetchDemonstration()
-
         }
 
         get("/translates") {
@@ -35,25 +34,20 @@ fun Application.configureRouting() {
         get("/") {
             call.respondText("Hello World!")
         }
-        get("/demo") {
-//            DevineController(this.call).parse()
-        }
+
         get("/displayDomain") {
             DevineController(this.call).displayDemonstration()
         }
         get("/image_download") {
             DevineController(this.call).downloadImages()
         }
-        get("/rename") {
-//            DevineController(this.call).renameFiles()
-        }
+
         get("/branches") {
             DevineController(this.call).fetchBranches()
 
         }
         get("/domains") {
             DevineController(this.call).fetchDomains()
-
         }
 
 
