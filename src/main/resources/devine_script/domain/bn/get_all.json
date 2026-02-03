@@ -2158,19 +2158,6 @@
     "difficultyLevel": "মধ্যবর্তী"
   },
   {
-    "domainId": 169,
-    "domainTitle": "সম্পর্কীয় বীজগণিত",
-    "domainSubtitle": "সেটের মধ্যে সম্পর্ক।",
-    "domainThumbnail": "images/domain_169.webp",
-    "branchId": 11,
-    "branchTitle": "অংক",
-    "branchSubtitle": "পরিমাণ, গঠন, স্থান এবং পরিবর্তনের বিজ্ঞান",
-    "branchThumbnail": "images/branch_11.webp",
-    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
-    "domainHref": "https://www.miracles-of-quran.com/relational_algebra.html",
-    "difficultyLevel": "অ্যাডভান্সড"
-  },
-  {
     "domainId": 170,
     "domainTitle": "এনকোডিং",
     "domainSubtitle": "অক্ষর এনকোডিং.",

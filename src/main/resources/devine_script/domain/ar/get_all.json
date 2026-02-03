@@ -2158,19 +2158,6 @@
     "difficultyLevel": "متوسط"
   },
   {
-    "domainId": 169,
-    "domainTitle": "الجبر العلائقي",
-    "domainSubtitle": "العلاقات بين المجموعات.",
-    "domainThumbnail": "images/domain_169.webp",
-    "branchId": 11,
-    "branchTitle": "الرياضيات",
-    "branchSubtitle": "علم الكمية والبنية والفضاء والتغيير",
-    "branchThumbnail": "images/branch_11.webp",
-    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
-    "domainHref": "https://www.miracles-of-quran.com/relational_algebra.html",
-    "difficultyLevel": "المتقدمة"
-  },
-  {
     "domainId": 170,
     "domainTitle": "التشفير",
     "domainSubtitle": "ترميز الأحرف.",

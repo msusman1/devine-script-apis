@@ -2158,19 +2158,6 @@
     "difficultyLevel": "DAZWISCHENLIEGEND"
   },
   {
-    "domainId": 169,
-    "domainTitle": "Relationale Algebra",
-    "domainSubtitle": "Beziehungen zwischen Mengen.",
-    "domainThumbnail": "images/domain_169.webp",
-    "branchId": 11,
-    "branchTitle": "Mathematik",
-    "branchSubtitle": "Wissenschaft von Quantität, Struktur, Raum und Veränderung",
-    "branchThumbnail": "images/branch_11.webp",
-    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
-    "domainHref": "https://www.miracles-of-quran.com/relational_algebra.html",
-    "difficultyLevel": "FORTSCHRITTLICH"
-  },
-  {
     "domainId": 170,
     "domainTitle": "Codierung",
     "domainSubtitle": "Zeichenkodierung.",

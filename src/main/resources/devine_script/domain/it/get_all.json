@@ -2157,19 +2157,7 @@
     "domainHref": "https://www.miracles-of-quran.com/base-19.html",
     "difficultyLevel": "INTERMEDIO"
   },
-  {
-    "domainId": 169,
-    "domainTitle": "Algebra relazionale",
-    "domainSubtitle": "Relazioni tra insiemi.",
-    "domainThumbnail": "images/domain_169.webp",
-    "branchId": 11,
-    "branchTitle": "Matematica",
-    "branchSubtitle": "Scienza della quantità, della struttura, dello spazio e del cambiamento",
-    "branchThumbnail": "images/branch_11.webp",
-    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
-    "domainHref": "https://www.miracles-of-quran.com/relational_algebra.html",
-    "difficultyLevel": "AVANZATE"
-  },
+
   {
     "domainId": 170,
     "domainTitle": "Codifica",
