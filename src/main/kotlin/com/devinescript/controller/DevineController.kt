@@ -99,7 +99,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
     suspend fun justTranslateAndDisplayAllDomains() {
         val langs = listOf("zh", "hi", "es", "fr", "ru", "ja", "pt", "id", "bn", "ar", "ur", "de", "it", "ko", "tr")
-        val domainsToTranslate = listOf(196, 197, 198, 199, 200)
+        val domainsToTranslate = listOf(201, 202)
 
         val getEngDomainsStr = File("src/main/resources/devine_script/domain/get_all.json")
         val type = object : TypeToken<List<DomainWithBranch>>() {}.type
@@ -147,8 +147,9 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
      */
     suspend fun displayDemonstration() {
         val domainId = call.request.queryParameters["domain_id"]?.toIntOrNull() ?: error("Provide domain id")
-        val allDomainSectionsFile = File("src/main/resources/devine_script/domainSections/$domainId.json")
-        val allDomainFile = File("src/main/resources/devine_script/domain/get_all.json")
+        val lang = call.request.queryParameters["lang"] ?: error("Provide domain id")
+        val allDomainSectionsFile = File("src/main/resources/devine_script/domainSections/$lang/$domainId.json")
+        val allDomainFile = File("src/main/resources/devine_script/domain/$lang/get_all.json")
         val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
         val domainWithBranchList =
             Gson().fromJson<List<DomainWithBranch>>(allDomainFile.readText(), typeForDomainWithBranch)
@@ -197,7 +198,7 @@ class DevineController(call: ApplicationCall) : BaseController(call) {
 
         val typeForDomainWithBranch = object : TypeToken<List<DomainWithBranch>>() {}.type
         val allDomains: List<DomainWithBranch> = Gson().fromJson(allDomainFile.readText(), typeForDomainWithBranch)
-        val nextDomainToLoad: DomainWithBranch? = allDomains.filter { it.domainId > domainId }.firstOrNull()
+        val nextDomainToLoad: DomainWithBranch? = allDomains.firstOrNull { it.domainId > domainId }
         val demonstration = DevineUtils.parseDemonstrations(href)
         File("src/main/resources/devine_script/domainSections/${domainId}.json").writeText(Gson().toJson(demonstration))
         if (demonstration != null) {

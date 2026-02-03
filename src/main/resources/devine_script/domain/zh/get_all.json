@@ -2559,6 +2559,32 @@
     "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
     "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "极端"
+  },
+  {
+    "domainId": 201,
+    "domainTitle": "氮循环",
+    "domainSubtitle": "闪电的作用。",
+    "domainThumbnail": "images/domain_201.webp",
+    "branchId": 8,
+    "branchTitle": "化学",
+    "branchSubtitle": "元素和化合物科学",
+    "branchThumbnail": "images/branch_8.webp",
+    "branchHref": "https://www.miracles-of-quran.com/chemistry.html",
+    "domainHref": "https://miracles-of-quran.com/nitrogen_cycle.html",
+    "difficultyLevel": "中间的"
+  },
+  {
+    "domainId": 202,
+    "domainTitle": "高超音速",
+    "domainSubtitle": "比超音速还快。",
+    "domainThumbnail": "images/domain_202.webp",
+    "branchId": 11,
+    "branchTitle": "数学",
+    "branchSubtitle": "数量、结构、空间和变化的科学",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/hypersonic.html",
+    "difficultyLevel": "简单"
   }
 ]
 

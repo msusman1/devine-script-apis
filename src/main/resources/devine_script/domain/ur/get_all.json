@@ -2559,6 +2559,32 @@
     "branchHref": "https://www.miracles-of-quran.com/cosmology.html",
     "domainHref": "https://www.miracles-of-quran.com/big_crunch.html",
     "difficultyLevel": "انتہائی مشکل"
+  },
+  {
+    "domainId": 201,
+    "domainTitle": "نائٹروجن سائیکل",
+    "domainSubtitle": "بجلی کا کردار۔",
+    "domainThumbnail": "images/domain_201.webp",
+    "branchId": 8,
+    "branchTitle": "کیمسٹری",
+    "branchSubtitle": "عناصر اور مرکبات کی سائنس",
+    "branchThumbnail": "images/branch_8.webp",
+    "branchHref": "https://www.miracles-of-quran.com/chemistry.html",
+    "domainHref": "https://miracles-of-quran.com/nitrogen_cycle.html",
+    "difficultyLevel": "درمیانہ"
+  },
+  {
+    "domainId": 202,
+    "domainTitle": "ہائپرسونک",
+    "domainSubtitle": "سپرسونک سے تیز",
+    "domainThumbnail": "images/domain_202.webp",
+    "branchId": 11,
+    "branchTitle": "ریاضی",
+    "branchSubtitle": "مقدار، ساخت، جگہ اور تبدیلی کی سائنس",
+    "branchThumbnail": "images/branch_11.webp",
+    "branchHref": "https://www.miracles-of-quran.com/mathematics.html",
+    "domainHref": "https://www.miracles-of-quran.com/hypersonic.html",
+    "difficultyLevel": "آسان"
   }
 ]
 

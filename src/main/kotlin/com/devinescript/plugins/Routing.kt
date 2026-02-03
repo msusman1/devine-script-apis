@@ -25,7 +25,7 @@ fun Application.configureRouting() {
             DevineController(this.call).fetchDemonstration()
         }
 
-        get("/translates") {
+        get("/translate_domain_sections") {
             DevineController(this.call).translateDomainSections()
         }
         get("/translates_domains") {
